@@ -8,13 +8,13 @@ class PagesController < ApplicationController
   def assemblies
   end
 
-  def set-up
+  def setup
   end
 
-  def Scheduling
+  def scheduling
   end
 
-  def Videos
+  def videos
   end
 
   def downloads
