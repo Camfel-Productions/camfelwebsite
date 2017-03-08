@@ -6,16 +6,13 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   
-  
+  <!-- Meta tags -->
   <meta charset="utf-8">
   <meta name="description" content="Camfel Productions has been making student development and bully prevention programs for 40 years. Our three-screen school assembly programs are designed to reach your students with valuable character lessons in a contemporary and attention grabbing format.">
   <meta name="keywords" content="bullying prevention, anti-bullying, character development"> <!-- add more keywords -->
   <meta name="author" content="Camfel Productions">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/stylesheets/homepage.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <!-- Begin Body -->
@@ -43,7 +40,9 @@
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">K - 5 Assemblies</a></li>
+            <li role="separator" class="divider"></li>
             <li><a href="#">6 - 8 Assemblies</a></li>
+            <li role="separator" class="divider"></li>
             <li><a href="#">9 - 12 Assemblies</a></li>
           </ul>
         </li>
@@ -61,5 +60,15 @@
 
 <%= yield %>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
+<!-- Begin footer -->
+<footer class="footer">
+  <div class="container">
+    <p>Camfel Productions 1-800-522-6335</p>
+  </div>
+</footer>
+
 </html>
