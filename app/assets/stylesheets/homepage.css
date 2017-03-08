@@ -1,16 +1,11 @@
-#motivational-speech {
-    margin: auto;
-}
-
-h2 {
-    color: blue;
+p {
+  margin: 20px 0 0 0;
 }
 
 /* Footer Styles - footer HTML located in layouts/application.html.erb */
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #f5f5f5;
+footer {
+  background: #42A5F5;
+  color: white;
+  line-height: 50px;
+  padding: 0 20px;
 }
