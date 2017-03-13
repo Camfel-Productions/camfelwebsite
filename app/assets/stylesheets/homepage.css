@@ -19,10 +19,10 @@ p {
   margin: 20px 0 0 0;
 }
 
-desaturate {
-	filter: grayscale(100%);
-}
 
+.hover:hover { 
+   filter: grayscale(100%);
+}
 
 
 /*************************************************************************
