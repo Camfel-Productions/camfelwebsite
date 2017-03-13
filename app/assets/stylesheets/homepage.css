@@ -15,6 +15,11 @@ NAV BAR
 /*************************************************************************
 BODY
 *************************************************************************/
+body {
+    background-color: transparent;
+}
+
+
 p {
   margin: 20px 0 0 0;
 }
@@ -26,8 +31,9 @@ p {
 
 
    
-.background_inspire {
-    position: fixed;
+html {
+    background-image: url("inspiring_notype.jpg");
+    
 }    
 
 .header-color{
