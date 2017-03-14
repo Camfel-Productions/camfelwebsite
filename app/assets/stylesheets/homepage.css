@@ -10,8 +10,27 @@ NAV BAR
     text-align: center;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+.navbar-custom {
+    background-color: #101010;
+    border-color: #E7E7E7;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus { 
 	color: #3899ec;
+	background-color: #101010;
+}
+
+.soft-link {
+    -webkit-transition: color .5s linear;
+    -moz-transition: color .5s linear;
+    -ms-transition: color .5s linear;
+    -o-transition: color .5s linear;
+    transition: color .5s linear;
 }
 
 
@@ -110,7 +129,7 @@ FOOTER
 	height: 40px;
 	padding: 0;
 	width: 100%;
-	color: #fff;
+	color: #000;
 }
 .newsletter-box {
 	overflow: hidden;
