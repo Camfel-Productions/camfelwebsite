@@ -38,10 +38,10 @@ NAV BAR
 /*************************************************************************
 BODY
 *************************************************************************/
-body {
-    background-color: transparent;
-}
 
+body {
+	background-color: transparent;
+}
 p {
   margin: 20px 0 0 0;
 }
@@ -49,6 +49,10 @@ p {
 .hover:hover { 
    filter: grayscale(100%);
 }
+.backgroundimage {
+	background: url('inspiring_notype.jpg');
+}
+
 
 
 
