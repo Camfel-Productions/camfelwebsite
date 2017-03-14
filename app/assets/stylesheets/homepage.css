@@ -33,7 +33,11 @@ p {
 }
 
 
-  
+html {
+    background-image: url("inspiring_notype.jpg");
+    
+}    
+
 .header-color{
     
 }
