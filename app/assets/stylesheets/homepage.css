@@ -10,8 +10,8 @@ NAV BAR
     text-align: center;
 }
 
-.active a {
-    color: blue;
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #3899ec;
 }
 
 
@@ -20,26 +20,14 @@ NAV BAR
 BODY
 *************************************************************************/
 
-
-
 p {
   margin: 20px 0 0 0;
 }
-
 
 .hover:hover { 
    filter: grayscale(100%);
 }
 
-
-   
-
-
-  
-.imgsize{
-    width: 100%;
-    position: absolute;
-}
 
 
 
@@ -47,7 +35,7 @@ p {
 FOOTER
 *************************************************************************/
 .full {
-    width: 100%;    
+    width: 100%;	
 }
 .gap {
 	height: 30px;
@@ -56,7 +44,7 @@ FOOTER
 	display: block;
 }
 .footer {
-	background: #EDEFF1;
+	background: #101010;
 	height: auto;
 	padding-bottom: 30px;
 	position: relative;
@@ -72,7 +60,7 @@ FOOTER
 }
 .footer h3 {
 	border-bottom: 1px solid #BAC1C8;
-	color: #54697E;
+	color: #FFFFFF;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 27px;
@@ -92,7 +80,7 @@ FOOTER
 	display: block;
 }
 .footer a {
-	color: #78828D
+	color: #FFFFFF;
 }
 .supportLi h4 {
 	font-size: 20px;
@@ -158,11 +146,11 @@ FOOTER
 	-o-transform: scale(1.1) rotate(360deg);
 }
 .social li a {
-	color: #EDEFF1;
+	color: #3899ec;;
 }
 .social li:hover {
-	border: 2px solid #2c3e50;
-	background: #2c3e50;
+	border: 2px solid #3899ec;
+	background: #3899ec;
 }
 .social li a i {
 	font-size: 16px;
@@ -180,4 +168,9 @@ FOOTER
 }
 .payments {
 	font-size: 1.5em;	
+}
+
+.container ul li a:hover {
+	color: #3899ec;
+	text-decoration: none;
 }
