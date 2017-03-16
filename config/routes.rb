@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   get 'pages/videos'
 
   get 'pages/downloads'
+  
+  get 'pages/the_right_choice', to: 'pages#the_right_choice', as: 'the_right_choice'
 
    root 'pages#home'
    

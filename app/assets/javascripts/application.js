@@ -16,3 +16,4 @@
 //= require_tree .
 @import jquery
 @import bootstrap-sprockets
+
