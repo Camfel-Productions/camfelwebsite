@@ -13,4 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+<<<<<<< HEAD
 //= require_tree .
+=======
+//= require_tree .
+@import jquery
+@import bootstrap-sprockets
+
+>>>>>>> right-choice

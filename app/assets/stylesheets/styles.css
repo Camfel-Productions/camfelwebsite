@@ -73,7 +73,10 @@ p {
 	background: url('inspiring_notype.jpg');
 }
 
-
+.panels {
+	background-color: purple;
+	color: white;
+}
 
 /*************************************************************************
 ELEMTNARY PAGE BODY
@@ -247,3 +250,5 @@ FOOTER
 	color: #3899ec;
 	text-decoration: none;
 }
+
+/* the start of tab css */

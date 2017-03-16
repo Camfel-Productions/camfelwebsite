@@ -19,4 +19,7 @@ class PagesController < ApplicationController
 
   def downloads
   end
+  
+  def the_right_choice
+  end
 end
