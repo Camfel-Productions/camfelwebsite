@@ -4,8 +4,8 @@ class PagesController < ApplicationController
 
   def about
   end
-
-  def assemblies
+  
+  def elementary
   end
 
   def setup
@@ -14,7 +14,7 @@ class PagesController < ApplicationController
   def scheduling
   end
 
-  def videos
+  def highschool
   end
 
   def downloads

@@ -25,20 +25,40 @@ NAV BAR
 	background-color: #101010;
 }
 
+.navbar-custom .navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.icon-bar {
+	background-color: #3899ec;
+}
+
 .soft-link {
-    -webkit-transition: color .5s linear;
-    -moz-transition: color .5s linear;
-    -ms-transition: color .5s linear;
-    -o-transition: color .5s linear;
-    transition: color .5s linear;
+    -webkit-transition: color .25s linear;
+    -moz-transition: color .25s linear;
+    -ms-transition: color .25s linear;
+    -o-transition: color .25s linear;
+    transition: color .25s linear;
+}
+
+.active {
+	color: #3899ec;
 }
 
 
 
 /*************************************************************************
-BODY
+HOME PAGE BODY
 *************************************************************************/
-
 body {
 	background-color: transparent;
 }
@@ -53,6 +73,34 @@ p {
 	background: url('inspiring_notype.jpg');
 }
 
+
+
+/*************************************************************************
+ELEMTNARY PAGE BODY
+*************************************************************************/
+#banner-image-1 {
+  	width: 100%;
+  	background-image: url('another_firewatch.jpg');
+  	height: 405px;
+  	background-color: purple;
+  	background-position: center;
+}
+
+#banner-image-2 {
+  	width: 100%;
+  	background-image: url('firewatch_yellow.jpg');
+  	height: 405px;
+  	background-color: purple;
+  	background-position: center;
+}
+
+#title {
+	text-align: center;
+}
+
+.btn.btn-primary {
+	background-color: #3899ec;
+}
 
 
 

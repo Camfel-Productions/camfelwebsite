@@ -3,13 +3,13 @@ Rails.application.routes.draw do
 
   get 'pages/about'
 
-  get 'pages/assemblies'
+  get 'pages/elementary',   to: 'pages#elementary', as: 'elementary'
 
   get 'pages/setup'
 
   get 'pages/scheduling'
 
-  get 'pages/videos'
+  get 'pages/highschool',   to: 'pages#highschool', as: 'highschool'
 
   get 'pages/downloads'
 
