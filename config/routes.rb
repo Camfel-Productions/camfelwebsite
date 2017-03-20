@@ -1,19 +1,23 @@
 Rails.application.routes.draw do
   get 'pages/home'
 
-  get 'pages/about'
+  get 'pages/about_us',      to: 'pages#about_us', as: 'about_us'
+  
+  get 'pages/contact_us',   to: 'pages#contact_us', as: 'contact_us'
 
   get 'pages/elementary',   to: 'pages#elementary', as: 'elementary'
 
   get 'pages/setup'
 
-  get 'pages/scheduling'
+  get 'pages/scheduling',   to: 'pages#scheduling', as: 'scheduling'
 
   get 'pages/highschool',   to: 'pages#highschool', as: 'highschool'
 
   get 'pages/downloads'
   
   get 'pages/the_right_choice', to: 'pages#the_right_choice', as: 'the_right_choice'
+  
+  
 
    root 'pages#home'
    
