@@ -2,13 +2,13 @@ class PagesController < ApplicationController
   def home
   end
 
-  def about
+  def about_us
+  end
+
+  def contact_us
   end
   
   def elementary
-  end
-
-  def setup
   end
 
   def scheduling
