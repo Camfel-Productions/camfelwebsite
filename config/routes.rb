@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get 'pages/old_elementary',   to: 'pages#old_elementary', as: 'old_elementary'
 
   get 'pages/elementary',   to: 'pages#elementary', as: 'elementary'
+  
+  get 'pages/old_elementary', to: 'pages#old_elementary', as: 'old_elementary'
 
   get 'pages/setup'
 
