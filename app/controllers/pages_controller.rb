@@ -10,7 +10,10 @@ class PagesController < ApplicationController
   
   def elementary
   end
-
+  
+  def old_elementary
+  end
+  
   def scheduling
   end
 

@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get 'pages/about_us',      to: 'pages#about_us', as: 'about_us'
   
   get 'pages/contact_us',   to: 'pages#contact_us', as: 'contact_us'
+  
+  get 'pages/old_elementary',   to: 'pages#old_elementary', as: 'old_elementary'
 
   get 'pages/elementary',   to: 'pages#elementary', as: 'elementary'
 
