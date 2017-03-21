@@ -1,6 +1,7 @@
 /* global $ */
 
-$(".nav li").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).addClass("active");
-});
+var presentationSummary = document.getElementById("presentation-summary");
+
+console.log(presentationSummary);
+
+console.log('what the fuck');
