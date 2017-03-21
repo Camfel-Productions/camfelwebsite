@@ -14,7 +14,7 @@
       <div class="col-md-6">
         <p><strong>Theme: Making Good Choices</strong></p>
         <p>THE RIGHT CHOICE will help your students make good decisions. The program will address how the choices they make affect them in both positive and negative ways. They will learn that good decisions lead to positive actions and that the right choices will help them and their friends excel in school and in life.</p>
-        <button type="button" class="btn btn-primary">Schedule</button>      
+        <%= link_to 'Schedule', scheduling_path, class: "btn btn-primary"%>      
       </div>
     </div>
     
@@ -25,13 +25,13 @@
       <div class="col-md-6">
         <p><strong>Theme: Being Your Best</strong></p>
         <p>BE A HERO! will motivate your students to be heroes! They'll learn that they don't need to have a super strength or wear a cool costume to be a hero. Students will be encouraged to excel in school, to help stop bullying, and to be a role-model - a "hero" for others to follow.</p>
-        <button type="button" class="btn btn-primary">Schedule</button>    
+        <%= link_to 'Schedule', scheduling_path, class: "btn btn-primary"%>    
       </div>
     </div>
     
     <br />
       
     <div id="other-assemblies-button">
-      <%= link_to 'Older Assemblies', scheduling_path, class: "btn btn-primary"%>
+      <%= link_to 'Old Assemblies', old_elementary_path, class: "btn btn-primary"%>
     </div>
 </div>
