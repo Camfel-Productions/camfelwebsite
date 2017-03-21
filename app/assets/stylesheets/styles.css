@@ -113,6 +113,12 @@ ELEMENTARY PAGE BODY
 	background-color: #3899ec;
 }
 
+#presentation-summary {
+	border-bottom: solid 1.25px;
+	border-top: solid 1.25px; 
+	padding: 25px;
+}
+
 /*************************************************************************
 CONTACT US BODY
 *************************************************************************/
