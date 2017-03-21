@@ -1,3 +1,4 @@
+/* global $ */
 
 var presentationSummary = document.getElementById("presentation-summary");
 
@@ -16,4 +17,3 @@ $("#elementarylink").fadeIn("slow",function(){});
 $( "p" ).click(function() {
   $( "p" ).fadeOut( "slow" );
 });
-

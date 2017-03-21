@@ -86,6 +86,8 @@ p {
 	display: none;
 }
 
+
+
 /*************************************************************************
 ELEMENTARY PAGE BODY
 *************************************************************************/
@@ -101,7 +103,7 @@ ELEMENTARY PAGE BODY
   	width: 100%;
   	background-image: url('firewatch_yellow.jpg');
   	height: 405px;
-  	background-color: purple;
+  	background-color: blue;
   	background-position: center;
 }
 
@@ -119,6 +121,15 @@ ELEMENTARY PAGE BODY
 	padding: 25px;
 }
 
+.img-responsive {
+	padding-top: 6.5%;
+}
+
+.pull-right {
+	padding-left: 10px;
+}
+
+
 
 /*************************************************************************
 CONTACT US BODY
@@ -126,6 +137,7 @@ CONTACT US BODY
 #inquiry-field {
 	resize: none;
 }
+
 
 
 /*************************************************************************
@@ -271,6 +283,8 @@ FOOTER
 	color: #3899ec;
 	text-decoration: none;
 }
+
+
 
 /*************************************************************************
 Show Information Pages
