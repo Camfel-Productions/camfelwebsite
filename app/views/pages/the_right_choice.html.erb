@@ -11,7 +11,7 @@
     
     <div class = "col-md-1"></div>
       <div class = "col-md-5">
-       <div>
+       <div id = "firstset">
         <h2> Theme: Making Good Choices</h2>
         <br/>
         <div class = "col-md-10 ">
@@ -48,7 +48,7 @@
                 </div>
               </div>
               <div id="menu1" class="tab-pane fade">
-                <div class="embed-responsive embed-responsive-16by9">
+                <div class="insetborder embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B5JV-KUboSQ" frameborder="0" allowfullscreen></iframe>
 
                 </div>
@@ -88,21 +88,22 @@
     <p class = "gibberish"> Camfel Productions has been making student development and bully prevention programs for 40 years. Our three-screen school assembly programs are designed to reach your students with valuable character lessons in a contemporary and attention grabbing format.</p>
   
   </div>
-</div>    
+
 <div  class = "discguidebackground well text-center" id= "discguide">
   <div class = "discguidetitle">
     <br/>
     <h2>The Right Choice Discussion Guide</h2>
     <br/></div>
-  <iframe src="http://docs.google.com/gview?url=http://camfel.com/pdf/guides/rightchoice_guide.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
+    
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="http://docs.google.com/gview?url=http://camfel.com/pdf/guides/rightchoice_guide.pdf&embedded=true" frameborder="0"></iframe>
+</div>
 </div>
 
-      <script>
-$(function(){
-    $("#firstset").fadeIn(1000);
+<script>
+$("gibberish").click(function(){
+    $("gibberish").slidetoggle(1000);
 });
-$(function(){
-    $("#highschoollink").fadeIn(1000);
-});
+
 
 </script>
