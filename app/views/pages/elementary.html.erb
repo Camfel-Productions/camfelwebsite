@@ -14,11 +14,11 @@
     
     <!-- Columns are always 50% wide, on mobile and desktop -->
     <div class="row">
-      <div class="col-md-6" id="assembly-links">
+      <div class="col-md-6">
         <%= link_to the_right_choice_path :class=>"soft-link" do %>
          <span>
-           IMAGE
-          </span>
+           <%= image_tag("worthit_header.jpg", :class=>"img-responsive") %>
+         </span>
         <% end %>
       </div>
       <div class="col-md-6" id="presentation-summary" class="hidingBox">
@@ -28,7 +28,7 @@
           them in both positive and negative ways. They will learn that good decisions lead to positive actions and that the right 
           choices will help them and their friends excel in school and in life.
         </p>
-        <%= link_to 'Schedule', scheduling_path, :class=>"btn btn-primary pull-right"%>  
+        <%= link_to 'Schedule', scheduling_path, :class=>"btn btn-primary pull-right left-padding"%>  
         <%= link_to 'Learn More', the_right_choice_path, :class=>"btn btn-primary pull-right"%> 
       </div>
     </div>
@@ -39,8 +39,8 @@
       <div class="col-md-6">
         <%= link_to tbdelem_path :class=>"soft-link" do %>
          <span>
-           IMAGE
-          </span>
+           <%= image_tag("worthit_header.jpg", :class=>"img-responsive") %>
+         </span>
         <% end %>
       </div>
       <div class="col-md-6" id="presentation-summary">
@@ -50,7 +50,7 @@
           cool costume to be a hero. Students will be encouraged to excel in school, to help stop bullying, and to be a role-model - 
           a "hero" for others to follow.
         </p>
-        <%= link_to 'Schedule', scheduling_path, :class=>"btn btn-primary pull-right"%> 
+        <%= link_to 'Schedule', scheduling_path, :class=>"btn btn-primary pull-right left-padding"%> 
         <%= link_to 'Learn More', tbdelem_path, :class=>"btn btn-primary pull-right"%> 
       </div>
     </div>
