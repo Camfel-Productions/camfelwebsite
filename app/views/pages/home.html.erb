@@ -51,11 +51,18 @@
   </div>
 </div>
 <script>
-$("#elementarylink").ready(function(){
+$(function(){
     $("#elementarylink").fadeIn(1000);
 });
-$("#highschoollink").ready(function(){
+$(function(){
     $("#highschoollink").fadeIn(1000);
 });
 
+</script>
+
+<script>
+$( "button" ).click(function() {
+  $( "div.first" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+  $( "div.second" ).slideUp( 300 ).fadeIn( 400 );
+});
 </script>

@@ -119,6 +119,7 @@ ELEMENTARY PAGE BODY
 	padding: 25px;
 }
 
+
 /*************************************************************************
 CONTACT US BODY
 *************************************************************************/
@@ -296,4 +297,14 @@ background: linear-gradient(to left, #0575E6 , #021B79); /* W3C, IE 10+/ Edge, F
 	background-color: Black;
 	color: white;
 	font-family:fantasy ;
+}
+
+.h2wannabe {
+	display: block;
+    font-size: 1.75em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
