@@ -1,6 +1,14 @@
-/* global $ */
 
-$(".nav li").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).addClass("active");
+
+function funct() {
+    $("#firstspan").hide();
+}
+function fadestuff() {
+$("#elementarylink").fadeIn("slow",function(){});
+}
+
+
+$( "p" ).click(function() {
+  $( "p" ).fadeOut( "slow" );
 });
+
