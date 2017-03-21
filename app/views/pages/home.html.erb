@@ -1,10 +1,10 @@
-<div class="panel panel-default text-center">
+<div   class="panel panel-default text-center">
   <div class="header-color">
           
     </br>
     
-    <h1 class> 3-School Assemblies For All Ages</h1>
-    <p> Camfel Productions has been making student development and bully prevention programs for 40 years. Our three-screen school assembly programs are designed to reach your students with valuable character lessons in a contemporary and attention grabbing format.</p>
+    <h1> 3-Screen School Assemblies For All Ages</h1>
+    <p  class = "gibberish"> Camfel Productions has been making student development and bully prevention programs for 40 years. Our three-screen school assembly programs are designed to reach your students with valuable character lessons in a contemporary and attention grabbing format.</p>
   </div>
 </div>
 
@@ -17,14 +17,14 @@
   <div class="backgroundimage"></div>
   <div class="col-md-2"></div>
     
-  <div class="col-md-4">
+  <div class="col-md-4" >
    
-    <div class = "panel panel-default text-center">
-       <%= link_to elementary_path :class=>"soft-link" do %>
-         <span>
+    <div id = "elementarylink" class = "fadein panel panel-default text-center" >
+       <%= link_to elementary_path :class=> "soft-links"  do %>
+         <span >
           
           <h2> Elementary School</h2>
-          <%= image_tag("elem_linkphoto.jpg",:class=> "hover") %>
+          <%= image_tag("elem_linkphoto.jpg",:class=> "hover" )  %>
         
           </br>
           </br>
@@ -35,8 +35,8 @@
     
   </div>
   <div class="col-md-4">
-    <div class = "panel panel-default text-center">
-      <%= link_to highschool_path do %>
+    <div id = "highschoollink" class = "fadein panel panel-default text-center">
+      <%= link_to highschool_path :class=> "soft-links" do %>
         <span>
           <h2> Middle & High School</h2>
           <%= image_tag("jr_srhslink_photo.jpg",:class=> "hover") %>
@@ -50,3 +50,12 @@
   <div class="col-md-2">
   </div>
 </div>
+<script>
+$("#elementarylink").ready(function(){
+    $("#elementarylink").fadeIn(1000);
+});
+$("#highschoollink").ready(function(){
+    $("#highschoollink").fadeIn(1000);
+});
+
+</script>
