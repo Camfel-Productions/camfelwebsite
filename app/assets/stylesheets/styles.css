@@ -113,6 +113,7 @@ ELEMENTARY PAGE BODY
 
 .btn.btn-primary {
 	background-color: #3899ec;
+	margin: 0 10px 0 10px;
 }
 
 #presentation-summary {
@@ -122,11 +123,20 @@ ELEMENTARY PAGE BODY
 }
 
 .img-responsive {
-	padding-top: 6.5%;
+	padding-top: 2.75%;
 }
 
-.pull-right {
-	padding-left: 10px;
+@media only screen and (max-width: 1007px) {
+    #presentation-summary {
+    	border-bottom: solid 1.25px;
+    	border-top: none;
+		padding: 45px 0 45px 0;
+    }
+    
+    #production-explanation {
+    	border-bottom: solid 1.25px;
+    	padding-bottom: 37.5px;
+    }
 }
 
 
