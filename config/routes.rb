@@ -5,11 +5,15 @@ Rails.application.routes.draw do
   
   get 'pages/contact_us',   to: 'pages#contact_us', as: 'contact_us'
   
-  get 'pages/old_elementary',   to: 'pages#old_elementary', as: 'old_elementary'
-
   get 'pages/elementary',   to: 'pages#elementary', as: 'elementary'
   
   get 'pages/old_elementary', to: 'pages#old_elementary', as: 'old_elementary'
+  
+  get 'pages/old_highschool', to: 'pages#old_highschool', as: 'old_highschool'
+  
+  get 'pages/tbdhs', to: 'pages#tbdhs', as: 'tbdhs'
+  
+  get 'pages/worth_it', to: 'pages#worth_it', as: 'worth_it'
 
   get 'pages/setup'
 
@@ -20,6 +24,8 @@ Rails.application.routes.draw do
   get 'pages/downloads'
   
   get 'pages/the_right_choice', to: 'pages#the_right_choice', as: 'the_right_choice'
+  
+  get 'pages/tbdelem', to: 'pages#tbdelem', as: 'tbdelem'
   
   
 

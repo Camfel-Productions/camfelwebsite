@@ -14,6 +14,15 @@ class PagesController < ApplicationController
   def old_elementary
   end
   
+  def tbdelem
+  end
+  
+  def tbdhs
+  end
+  
+  def worth_it
+  end
+  
   def scheduling
   end
 
