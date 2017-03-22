@@ -1,3 +1,4 @@
+
 <div   class="panel panel-default text-center">
   <div class="header-color">
           
@@ -10,14 +11,14 @@
 
 <!-- Center with Picture links -->
 
-<div class="row backgroundimage">  
+<div class="backgroundimage">  
   
   </br>
   
-  <div class="backgroundimage"></div>
-  <div class="col-md-2"></div>
-    
-  <div class="col-md-4" >
+  <div class = "container">
+  <div class = "row">
+  
+  <div class="col-md-6">
    
     <div id = "elementarylink" class = "fadein panel panel-default text-center" >
        <%= link_to elementary_path :class=> "soft-links"  do %>
@@ -34,7 +35,7 @@
     </div>
     
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6">
     <div id = "highschoollink" class = "fadein panel panel-default text-center">
       <%= link_to highschool_path :class=> "soft-links" do %>
         <span>
@@ -46,9 +47,12 @@
         </span>
       <% end %>
     </div>
-  </div>
-  <div class="col-md-2">
-  </div>
+    </div>
+
+</div>
+</div>
+
+
 </div>
 <script>
 $(function(){

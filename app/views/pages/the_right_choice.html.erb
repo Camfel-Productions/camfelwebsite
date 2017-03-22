@@ -1,20 +1,21 @@
-
-
 <div class="well well-lg text-center">
   <div class = "header-color ">
        
     <h1 class = > The Right Choice K-5th Assembly</h1>
     <p> An important school assembly about the importance of making the right choices</p>
   </div>
+
+
 </div>
+
 <div class = "showinfobackground">
-    
-    <div class = "col-md-1"></div>
-      <div class = "col-md-5">
+<div class = "container">
+       <div class = "row">
+      <div class = "col-md-6">
        <div id = "firstset">
         <h2> Theme: Making Good Choices</h2>
         <br/>
-        <div class = "col-md-10 ">
+        
           <p >Every day each one of us has so many choices to make. We choose what we will wear, what we will eat, what friends to hang out with, what to do with our spare time, and we even choose our attitude!
              We all have the power to choose, but are all our choices the right ones?
              Camfel Productions' THE RIGHT CHOICE will help your elementary students discern which decisions are the best decisions. 
@@ -25,15 +26,17 @@
              THE RIGHT CHOICE will encourage your students to be great decision makers.  
              They will learn that good decisions lead to positive actions, and that the right choices will help them and their friends excel in school and in life.
           </p>
-        </div>
+        
         </div>
       
         </br>
         </br>
       
       </div>
-      <div class = "row">
-      <div class = "col-md-5">
+      
+
+ 
+      <div class = "col-md-6">
         <div >
           <h2>Preview</h2>
             <ul class="nav nav-tabs">
@@ -57,27 +60,29 @@
           </div>
         </div>
       </div>
-  
+     
   
   
   <div  class = "row">
-    <div class = "col-md-1"></div>
-      <div class = "col-md-5">
+    
+      <div class = "col-xs-6">
         <br/>
         <br/>
         <button type="button" class="btn btn-primary btn-block" onClick="document.getElementById('discguide').scrollIntoView();"><h2>Check Out The Discussion Guide</h2></button>
       </div>
-      <div class = "col-md-5">
+      <div class = "col-xs-6">
         <br/>
         <br/>
       <%= link_to contact_us_path :class=> "soft-links"  do %>
       <span>
-        <button type="button" class="btn btn-primary btn-block"><h2>Learn More/Schedule</h2></button>
+        <button type="button" class="btn btn-primary btn-block"><h2>Contact Us</h2></button>
       </span>
       <%end %>
 
       </div>
+       
   </div>
+  </div> 
   
   </br>
   </br>
@@ -99,7 +104,25 @@
   <iframe class="embed-responsive-item" src="http://docs.google.com/gview?url=http://camfel.com/pdf/guides/rightchoice_guide.pdf&embedded=true" frameborder="0"></iframe>
 </div>
 </div>
+  <div class = "well text-center">
+    <h2> The Right Choice Deluxe Package</h2>
+    <p> A follow-up discussion video, two 18"x24" posters, one 5'x2' banner, and 600 two-sided bookmarks can add valuable follow-up to the assembly.</p>
+    <p class = "gibberish"> Camfel Productions has been making student development and bully prevention programs for 40 years. Our three-screen school assembly programs are designed to reach your students with valuable character lessons in a contemporary and attention grabbing format.</p>
+  
+  </div>
 
+  <div  class = "discguidebackground well text-center" id= "discguide">
+    <div class = "discguidetitle">
+      <br/>
+      <h2>The Right Choice Discussion Guide</h2>
+      <br/>
+    </div>
+      
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="http://docs.google.com/gview?url=http://camfel.com/pdf/guides/rightchoice_guide.pdf&embedded=true" frameborder="0"></iframe>
+    </div>
+  </div>
+</div>
 <script>
 $("gibberish").click(function(){
     $("gibberish").slidetoggle(1000);
