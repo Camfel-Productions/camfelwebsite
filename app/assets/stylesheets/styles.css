@@ -126,18 +126,61 @@ ELEMENTARY PAGE BODY
 	padding-top: 2.75%;
 }
 
+@media only screen and (max-width: 1023px) {
+	#elementaryschool {
+		margin-bottom: 15px;
+	}	
+}
+
 @media only screen and (max-width: 1007px) {
     #presentation-summary {
     	border-bottom: solid 1.25px;
     	border-top: none;
-		padding: 45px 0 45px 0;
+		padding: 45px 0 55px 0;
     }
     
     #production-explanation {
+    	border-top: solid 1.25px;
     	border-bottom: solid 1.25px;
-    	padding-bottom: 37.5px;
+    	padding: 33px 0 33px 0;
     }
 }
+
+@media only screen and (max-width: 799px) {
+	#presentation-summary {
+    	border-bottom: solid 1.25px;
+    	border-top: none;
+		padding: 25px 25px 85px 25px;
+    }
+    
+    #other-assemblies-button {
+    	text-align: center;
+    }
+    
+    .btn.btn-primary {
+		background-color: #3899ec;
+		margin: 15px 0 0 10px;
+	}
+}
+
+@media only screen and (max-width: 333px) {
+	#presentation-summary {
+    	border-bottom: solid 1.25px;
+    	border-top: none;
+		padding: 25px 15px 95px 15px;
+    }
+    
+    #other-assemblies-button {
+    	text-align: center;
+    	margin: -20px 0 0 0;
+    }
+    
+    .btn.btn-primary {
+		background-color: #3899ec;
+		margin: 20px 0 0 10px;
+	}
+}
+
 
 
 
@@ -145,7 +188,36 @@ ELEMENTARY PAGE BODY
 CONTACT US BODY
 *************************************************************************/
 #inquiry-field {
-	resize: none;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    resize: none;
+
+    width: 100%;
+}
+
+#contact-us-title {
+	border-bottom: solid 1.25px;
+	padding-bottom: 15px;
+}
+
+#contact-us-paragraph {
+	margin-top: 15px;
+}
+
+@media only screen and (max-width: 783px) {
+	#contact-us-title {
+		text-align: center;
+	}
+	
+	#contact-us-paragraph {
+		text-align: center;
+	}
+	
+	#camfel-form {
+		text-align: center;
+	}
 }
 
 
