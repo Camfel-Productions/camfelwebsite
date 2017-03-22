@@ -1,1 +1,107 @@
-<h1>worth it show page. tell me more about this show</h1>
+<div class="well well-lg text-center">
+  <div class = "header-color ">
+       
+    <h1> Worth It 6-12th Assembly</h1>
+    <p> A School Assembly Designed to Motivate Students to Make Decisions That Will Expand Their Opportunities</p>
+  </div>
+
+
+</div>
+
+<div class = "showinfobackground">
+<div class = "container">
+       <div class = "row">
+      <div class = "col-md-6">
+       <div id = "firstset">
+        <h2> Theme: Making Good Decisions</h2>
+        <br/>
+        
+          <p>Each day is full of choices - decisions we all have to make.  Whether it's deciding to skip breakfast or finish your homework, each decision, no matter the size and weight of them, has the power to influence you in both positive and negative ways. Unfortunately, the ability to choose what's best for us is often clouded by the way we view ourselves.  Instead of asking, "Is this worth it?" we let others control our decisions, giving in to the pressure to participate in negative behavior like using drugs & alcohol in an effort to appear "worth it" to those around us.
+Camfel Productions' WORTH IT! will demonstrate to your students that the choices they make today will directly affect their future. They will be taught to take control of the decisions they make, and that through perseverance and self-discipline, they can make the right choices - choices that will lead them to success in school and in life. WORTH IT! is an interactive experience designed to teach your students to stand up to bullies, to avoid negative influences, and to make decisions that will expand their opportunities.
+          </p>
+        
+        </div>
+      
+        </br>
+        </br>
+      
+      </div>
+      
+
+ 
+      <div class = "col-md-6">
+        <div >
+          <h2>Preview</h2>
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#home">3-5 Version</a></li>
+              <li><a data-toggle="tab" href="#menu1">K-2 Version</a></li>
+                
+            </ul>
+            <div class="tab-content">
+              <div id="home" class="tab-pane fade in active" >
+                <div class="insetborder embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GLFnfqgkIxM" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="menu1" class="tab-pane fade">
+                <div class="insetborder embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B5JV-KUboSQ" frameborder="0" allowfullscreen></iframe>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+  
+  
+  <div  class = "row">
+    
+      <div class = "col-xs-6">
+        <br/>
+        <br/>
+        <button type="button" class="btn btn-primary btn-block" onClick="document.getElementById('discguide').scrollIntoView();"><h2>Check Out The Discussion Guide</h2></button>
+      </div>
+      <div class = "col-xs-6">
+        <br/>
+        <br/>
+      <%= link_to contact_us_path :class=> "soft-links"  do %>
+      <span>
+        <button type="button" class="btn btn-primary btn-block"><h2>Contact Us</h2></button>
+      </span>
+      <%end %>
+
+      </div>
+       
+  </div>
+  </div> 
+  
+  </br>
+  </br>
+
+  <div class = "well text-center">
+    <h2> Worth It Deluxe Package</h2>
+    <p> A follow-up 4-segment discussion video, two 18"x24" posters, one 5'x2' banner, 600 two-sided bookmarks, and a 30-lesson "Worth It!" Program can add value to the assembly.</p>
+    <p class = "gibberish"> Camfel Productions has been making student development and bully prevention programs for 40 years. Our three-screen school assembly programs are designed to reach your students with valuable character lessons in a contemporary and attention grabbing format.</p>
+  
+  </div>
+
+<div  class = "discguidebackground well text-center" id= "discguide">
+  <div class = "discguidetitle">
+    <br/>
+    <h2>Worth It Discussion Guide</h2>
+    <br/></div>
+    
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="http://docs.google.com/gview?url=http://camfel.com/pdf/guides/worthit_guide.pdf&embedded=true" frameborder="0"></iframe>
+</div>
+</div>
+  
+<script>
+$("gibberish").click(function(){
+    $("gibberish").slidetoggle(1000);
+});
+
+
+</script>
