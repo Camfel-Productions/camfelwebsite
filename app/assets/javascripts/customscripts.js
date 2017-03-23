@@ -1,4 +1,22 @@
 /* global $ */
+$(function(){
+    $("#elementarylink").fadeIn(1000);
+});
+$(function(){
+    $("#highschoollink").fadeIn(1000);
+});
+
+function slide(){
+ 
+  $( "#slidein" ).slideToggle( "slow", function() {
+    // Animation complete.
+  });
+}
+
+
+
+
+
 
 var presentationSummary = document.getElementById("presentation-summary");
 
@@ -17,3 +35,5 @@ $("#elementarylink").fadeIn("slow",function(){});
 $( "p" ).click(function() {
   $( "p" ).fadeOut( "slow" );
 });
+
+

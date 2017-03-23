@@ -5,7 +5,7 @@
     </br>
     
     <h1> 3-Screen School Assemblies for Each Grade Level</h1>
-    <p>Camfel Productions produces student development and bully prevention programs. Our three-screen school assemblies
+    <p >Camfel Productions produces student development and bully prevention programs. Our three-screen school assemblies
 are designed to reach your students with valuable character education lessons in a contemporary and engaging way</p>
   </div>
 </div>
@@ -21,7 +21,7 @@ are designed to reach your students with valuable character education lessons in
   
   <div class="col-md-6">
    
-    <div id = "elementarylink" class = "fadein panel panel-default text-center" >
+    <div id = "elementarylink" class = "fadein panel panel-default text-center" onload = "fadeElem()">
        <%= link_to elementary_path :class=> "soft-links"  do %>
          <span >
           
@@ -55,13 +55,5 @@ are designed to reach your students with valuable character education lessons in
 
 
 </div>
-<script>
-$(function(){
-    $("#elementarylink").fadeIn(1000);
-});
-$(function(){
-    $("#highschoollink").fadeIn(1000);
-});
 
-</script>
 
