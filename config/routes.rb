@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   
   get 'pages/old_highschool', to: 'pages#old_highschool', as: 'old_highschool'
   
-  get 'pages/tbdhs', to: 'pages#tbdhs', as: 'tbdhs'
+  get 'pages/eye_to_eye', to: 'pages#eye_to_eye', as: 'eye_to_eye'
   
   get 'pages/worth_it', to: 'pages#worth_it', as: 'worth_it'
 
@@ -25,7 +25,7 @@ Rails.application.routes.draw do
   
   get 'pages/the_right_choice', to: 'pages#the_right_choice', as: 'the_right_choice'
   
-  get 'pages/tbdelem', to: 'pages#tbdelem', as: 'tbdelem'
+  get 'pages/point_of_view', to: 'pages#point_of_view', as: 'point_of_view'
   
   get 'pages/event_prep', to: 'pages#event_prep', as: 'event_prep'
   

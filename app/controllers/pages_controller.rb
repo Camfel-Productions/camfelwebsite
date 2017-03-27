@@ -14,10 +14,10 @@ class PagesController < ApplicationController
   def old_elementary
   end
   
-  def tbdelem
+  def point_of_view
   end
   
-  def tbdhs
+  def eye_to_eye
   end
   
   def worth_it

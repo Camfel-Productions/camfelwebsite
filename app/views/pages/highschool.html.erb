@@ -15,9 +15,9 @@
     <!-- Columns are always 50% wide, on mobile and desktop -->
     <div class="row">
       <div class="col-md-6">
-        <%= link_to the_right_choice_path :class=>"soft-link" do %>
+        <%= link_to worth_it_path :class=>"soft-link" do %>
          <span>
-           <%= image_tag("relatable_notype.jpg", :class=>"img-responsive") %>
+           <%= image_tag("worth_it_logo.png", :class=>"img-responsive") %>
          </span>
         <% end %>
       </div>
@@ -36,27 +36,27 @@
     
     <div class="row">
       <div class="col-md-6">
-        <%= link_to tbdelem_path :class=>"soft-link" do %>
+        <%= link_to point_of_view_path :class=>"soft-link" do %>
          <span>
-           <%= image_tag("relatable_notype.jpg", :class=>"img-responsive") %>
+           <%= image_tag("alt_POV_logo.png", :class=>"img-responsive") %>
          </span>
         <% end %>
       </div>
       <div class="col-md-6" id="presentation-summary">
         <p><strong>Theme: Achieving Personal Excellence</strong></p>
-        <p>
+        <p class = "gibberish">
           Amazing people don't let negative criticism, or uncontrollable circumstances hold them back from pressing on to achieve their goals.
           They recognize their limitations, but don't blame those limitations for their failures. <strong>BE AMAZING!</strong> will encourage
           your students to strive each day to attain their personal best and to leave behind a legacy they can be proud of.
         </p>
-        <%= link_to 'Contact Us', scheduling_path, :class=>"btn btn-primary pull-right left-padding"%> 
-        <%= link_to 'Learn More', tbdelem_path, :class=>"btn btn-primary pull-right"%> 
+        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%> 
+        <%= link_to 'Learn More', point_of_view_path, :class=>"btn btn-primary pull-right"%> 
       </div>
     </div>
     
     <br />
       
     <div id="other-assemblies-button">
-      <%= link_to 'Old Assemblies', old_elementary_path, :class=>"btn btn-primary"%>
+      <%= link_to 'Old Assemblies', old_highschool_path, :class=>"btn btn-primary"%>
     </div>
 </div>
