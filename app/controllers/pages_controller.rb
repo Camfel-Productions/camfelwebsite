@@ -34,4 +34,7 @@ class PagesController < ApplicationController
   
   def the_right_choice
   end
+  
+  def event_prep
+  end
 end

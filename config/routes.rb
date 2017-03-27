@@ -27,8 +27,8 @@ Rails.application.routes.draw do
   
   get 'pages/tbdelem', to: 'pages#tbdelem', as: 'tbdelem'
   
+  get 'pages/event_prep', to: 'pages#event_prep', as: 'event_prep'
   
-
    root 'pages#home'
    
   # The priority is based upon order of creation: first created -> highest priority.
