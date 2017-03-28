@@ -27,6 +27,14 @@ Rails.application.routes.draw do
   
   get 'pages/point_of_view', to: 'pages#point_of_view', as: 'point_of_view'
   
+  get 'pages/be_a_hero', to: 'pages#be_a_hero', as: 'be_a_hero'
+  
+  get 'pages/be_amazing', to: 'pages#be_amazing', as: 'be_amazing'
+  
+  get 'pages/golden_rule', to: 'pages#golden_rule', as: 'golden_rule'
+  
+  get 'pages/quest_for_respect', to: 'pages#quest_for_respect', as: 'quest_for_respect'
+ 
   get 'pages/event_prep', to: 'pages#event_prep', as: 'event_prep'
   
    root 'pages#home'

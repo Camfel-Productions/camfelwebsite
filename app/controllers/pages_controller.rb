@@ -14,6 +14,9 @@ class PagesController < ApplicationController
   def old_elementary
   end
   
+  def the_right_choice
+  end
+  
   def point_of_view
   end
   
@@ -23,6 +26,18 @@ class PagesController < ApplicationController
   def worth_it
   end
   
+  def be_a_hero
+  end
+  
+  def golden_rule
+  end
+  
+  def quest_for_respect
+  end
+  
+  def be_amazing
+  end
+  
   def scheduling
   end
 
@@ -30,9 +45,6 @@ class PagesController < ApplicationController
   end
 
   def downloads
-  end
-  
-  def the_right_choice
   end
   
   def event_prep

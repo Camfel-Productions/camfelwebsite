@@ -15,21 +15,20 @@
     <!-- Columns are always 50% wide, on mobile and desktop -->
     <div class="row">
       <div class="col-md-6">
-        <%= link_to the_right_choice_path :class=>"soft-link" do %>
+        <%= link_to be_a_hero_path :class=>"soft-link" do %>
          <span>
-           <%= image_tag("relatable_notype.jpg", :class=>"img-responsive") %>
+           <%= image_tag("beaheroemail.png", :class=>"img-responsive") %>
          </span>
         <% end %>
       </div>
       <div class="col-md-6" id="presentation-summary" class="hidingBox">
-        <p><strong>Theme: Making Good Choices</strong></p>
+        <p><strong>Theme: Being Your Best</strong></p>
         <p>
-          <strong>THE RIGHT CHOICE!</strong> will help your students make good decisions. The program will address how the choices they make affect
-          them in both positive and negative ways. They will learn that good decisions lead to positive actions and that the right 
-          choices will help them and their friends excel in school and in life.
+          <strong>BE A HERO!</strong> is an interactive program that will encourage your students to excel in school, 
+          to help stop bullying, and to be a role-model - a "hero" for others to follow.
         </p>
         <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%>  
-        <%= link_to 'Learn More', the_right_choice_path, :class=>"btn btn-primary pull-right"%> 
+        <%= link_to 'Learn More', be_a_hero_path, :class=>"btn btn-primary pull-right"%> 
       </div>
     </div>
     
@@ -37,27 +36,24 @@
     
     <div class="row">
       <div class="col-md-6">
-        <%= link_to tbdelem_path :class=>"soft-link" do %>
+        <%= link_to golden_rule_path :class=>"soft-link" do %>
          <span>
-           <%= image_tag("relatable_notype.jpg", :class=>"img-responsive") %>
+           <%= image_tag("the_golden_rule_logo.jpg", :class=>"img-responsive") %>
          </span>
         <% end %>
       </div>
       <div class="col-md-6" id="presentation-summary">
-        <p><strong>Theme: Being Your Best</strong></p>
-        <p>
-          <strong>BE A HERO!</strong> will motivate your students to be heroes! They'll learn that they don't need to have a super strength or wear a 
-          cool costume to be a hero. Students will be encouraged to excel in school, to help stop bullying, and to be a role-model - 
-          a "hero" for others to follow.
+        <p ><strong>Theme: Respect</strong></p>
+        <p >
+          <strong>THE GOLDEN RULE</strong> will demonstrate that true respect is earned over time. 
+          When we do our best in class and when we build up others instead of being mean, we will gain "true" respect.
         </p>
         <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%> 
-        <%= link_to 'More Info', tbdelem_path, :class=>"btn btn-primary pull-right"%> 
+        <%= link_to 'Learn More', golden_rule_path, :class=>"btn btn-primary pull-right"%> 
       </div>
     </div>
     
-    <br />
+    
       
-    <div id="other-assemblies-button">
-      <%= link_to 'Old Assemblies', old_elementary_path, :class=>"btn btn-primary"%>
-    </div>
+    
 </div>
