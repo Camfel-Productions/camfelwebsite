@@ -89,7 +89,7 @@ p {
 
 
 /*************************************************************************
-ELEMENTARY PAGE BODY
+ELEMENTARY / HIGH SCHOOL PAGE BODY
 *************************************************************************/
 #banner-image-1 {
   	width: 100%;
@@ -121,6 +121,11 @@ ELEMENTARY PAGE BODY
 	border-top: solid 1.25px; 
 	padding: 25px;
 }
+
+#other-assemblies-button {
+    	text-align: right;
+    	margin: 1.5px 0 0 0;
+    }
 
 .img-responsive {
 	padding-top: 2.75%;
@@ -181,6 +186,27 @@ ELEMENTARY PAGE BODY
 	}
 }
 
+
+
+/*************************************************************************
+ABOUT PAGE
+*************************************************************************/
+.discguidebackground {
+    background: #0575E6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0575E6 , #021B79); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0575E6 , #021B79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.discguidetitle {
+	padding-top: 20px;
+	background-color: Black;
+	color: white;
+	font-family: fantasy;
+}
+
+.discguidetext {
+	text-align: center;
+}
 
 
 
@@ -375,24 +401,11 @@ Show Information Pages
 	border-style: inset;
 	border-radius: 5px;
 }
-.showinfobackground {
-background: #FFAFBD; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #FFAFBD , #ffc3a0); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #FFAFBD , #ffc3a0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-}
-.discguidebackground {
-	
 
-background: #0575E6; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #0575E6 , #021B79); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #0575E6 , #021B79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-}
-.discguidetitle {
-	background-color: Black;
-	color: white;
-	font-family:fantasy ;
+.showinfobackground {
+	background: #FFAFBD; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFAFBD , #ffc3a0); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFAFBD , #ffc3a0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .h2wannabe {
