@@ -15,7 +15,14 @@
     <!-- Columns are always 50% wide, on mobile and desktop -->
     <div class="row">
       <div class="col-md-6">
-        <%= link_to the_right_choice_path :class=>"soft-link" do %>
+        <div class="row">
+          <div class="col-md-6">
+            <%= link_to 'Option #1', old_elementary_path, :class=>"btn btn-primary"%>
+          </div>
+          <div class="col-md-6">
+            <%= link_to the_right_choice_path :class=>"soft-link" do %>
+          </div>
+        </div>
          <span>
            <%= image_tag("right_choice_logo.png", :class=>"img-responsive") %>
          </span>
@@ -37,10 +44,17 @@
     
     <div class="row">
       <div class="col-md-6">
-        <%= link_to eye_to_eye_path :class=>"soft-link" do %>
-         <span>
-           <%= image_tag("e2e_logo.png", :class=>"img-responsive") %>
-         </span>
+        <div class="row">
+          <div>
+            <%= link_to 'Option #2', old_elementary_path, :class=>"btn btn-primary"%>
+          </div>
+          <div>
+            <%= link_to eye_to_eye_path :class=>"soft-link" do %>
+          </div>
+        </div>
+        <span>
+          <%= image_tag("e2e_logo.png", :class=>"img-responsive") %>
+        </span>
         <% end %>
       </div>
       <div class="col-md-6" id="presentation-summary">
