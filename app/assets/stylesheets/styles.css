@@ -417,3 +417,24 @@ Show Information Pages
     margin-right: 0;
     font-weight: bold;
 }
+.freebutton {
+	position: absolute;
+	top:2em;
+	left:1em;
+	-ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Chrome, Safari, Opera */
+    transform: rotate(-30deg);
+    background-color: red;
+    padding: 10px;
+}
+ .panel-freebutton{
+    background-image: none;
+   
+    color: white;
+    border: none;
+
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
