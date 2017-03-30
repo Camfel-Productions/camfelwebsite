@@ -1,6 +1,6 @@
 <div id="banner-image-1"></div>
 
-<div class="container">
+<div class="container-fluid">
     <div id="title">
       <h1 id="elementaryschool">Junior and High School Assemblies</h1>
       <h4 id="production-explanation">
@@ -14,14 +14,18 @@
     
     <!-- Columns are always 50% wide, on mobile and desktop -->
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-1">
+        </br></br></br></br>
+        <%= link_to 'Option #1', old_elementary_path, :class=>"btn btn-primary"%>
+      </div>
+      <div class="col-md-5">
         <%= link_to worth_it_path :class=>"soft-link" do %>
          <span>
            <%= image_tag("worth_it_logo.png", :class=>"img-responsive") %>
          </span>
         <% end %>
       </div>
-      <div class="col-md-6" id="presentation-summary" class="hidingBox">
+      <div class="col-md-5" id="presentation-summary" class="hidingBox">
         
           <strong>WORTH IT!</strong> will demonstrate to your students that the choices they make today will directly affect their
           future. They will be taught to take control of the decisions they make, and that through perserverance and selc-discipling,
@@ -35,19 +39,25 @@
     <br />
     
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-1">
+        </br></br></br></br>
+        <%= link_to 'Option #2', old_elementary_path, :class=>"btn btn-primary"%>
+      </div>
+      <div class="col-md-5">
         <%= link_to point_of_view_path :class=>"soft-link" do %>
          <span>
            <%= image_tag("alt_POV_logo.png", :class=>"img-responsive") %>
          </span>
         <% end %>
       </div>
-      <div class="col-md-6" id="presentation-summary">
-        <p><strong>Theme: Achieving Personal Excellence</strong></p>
-        <p class = "gibberish">
-          Amazing people don't let negative criticism, or uncontrollable circumstances hold them back from pressing on to achieve their goals.
-          They recognize their limitations, but don't blame those limitations for their failures. <strong>BE AMAZING!</strong> will encourage
-          your students to strive each day to attain their personal best and to leave behind a legacy they can be proud of.
+      <div class="col-md-5" id="presentation-summary">
+        
+        <p>
+           POINT OF VIEW is a new 40 minute multi-media experience from Camfel Productions designed to look beyond 
+          the violence, racism, intolerance, harrassment, and hate in this world, giving students a new perspective 
+          on the differences that separate them from their peers, their parents, and the others who are around them. 
+          While they gain a new sense of their on innate worth, they'll grow to appreciate 
+          the diversity of race, language, and culture that make up the community in which they live. 
         </p>
         <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%> 
         <%= link_to 'Learn More', point_of_view_path, :class=>"btn btn-primary pull-right"%> 
