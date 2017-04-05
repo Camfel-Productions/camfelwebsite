@@ -37,7 +37,7 @@
       
       <div  class = "row">
     
-      <div class = "col-xs-4">
+      <div class = "col-md-3">
         <br/>
         <br/>
         <div onClick="document.getElementById('discguide').scrollIntoView();">
@@ -45,14 +45,14 @@
           <button type="button" class="btn btn-primary btn-block" >Worth It </br>Follow-Up Guide</button>
         </div>
       </div>
-      <div class = "col-xs-4">
+      <div class = "col-md-3">
         <br/>
         <br/>
       
         <a href = "http://characteredtools.com/assemblies/worthitassembly.html"><button type="button" class="btn btn-primary btn-block">Worth It <br/>Deluxe Package</button></a>
      
       </div>
-      <div class = "col-xs-4">
+      <div class = "col-md-3">
         <br/>
         <br/>
       <%= link_to contact_us_path :class=> "soft-links"  do %>
@@ -62,6 +62,15 @@
       <%end %>
 
       </div>
+      <div class = "col-md-3">
+        <br/>
+        <br/>
+      <%= link_to asset_path("Worth_It_Info.pdf")  do %>
+        <span>
+          <button type="button" class="btn btn-primary">Printable </br> flyer</button>
+        </span>
+      <%end %> 
+    <br/></div>
        
   </div>
       
@@ -172,10 +181,15 @@
   <div class = "discguidetitle">
     <br/>
     <h2>Worth It Discussion Guide</h2>
+    <%= link_to asset_path("worthit_guide.pdf")  do %>
+        <span>
+          <button type="button" class="btn btn-primary">Download PDF</button>
+        </span>
+      <%end %> 
     <br/></div>
     
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="http://docs.google.com/gview?url=http://camfel.com/pdf/guides/rightchoice_guide.pdf&embedded=true" frameborder="0"></iframe>
+  <iframe class="embed-responsive-item" src="/worthit_guide.pdf" frameborder="0"></iframe>
 </div>
 </div>
   

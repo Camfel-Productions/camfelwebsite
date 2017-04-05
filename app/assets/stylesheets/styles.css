@@ -225,7 +225,11 @@ ABOUT PAGE
 	text-align: center;
 }
 
-
+.img_carousel {
+	height: 1000px;
+	width: auto;
+	overflow: hidden;
+}
 
 /*************************************************************************
 CONTACT US BODY
