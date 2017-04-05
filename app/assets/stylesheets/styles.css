@@ -62,6 +62,7 @@ HOME PAGE BODY
 body {
 	background-color: transparent;
 }
+
 p {
   margin: 20px 0 0 0;
 }
@@ -69,6 +70,7 @@ p {
 .hover:hover { 
    filter: grayscale(100%);
 }
+
 .backgroundimage {
 	background: url('inspiring_notype.jpg');
 }
@@ -84,6 +86,22 @@ p {
 
 .fadein {
 	display: none;
+}
+
+.md-size-text {
+	font-size: 18px;
+}
+
+.btn-margin-top {
+	margin-top: 15px;
+}
+
+.padding-top-bottom {
+	padding: 20px 0 10px 0;	
+}
+
+.margin-top {
+	margin-top: 20px;
 }
 
 
@@ -123,9 +141,9 @@ ELEMENTARY / HIGH SCHOOL PAGE BODY
 }
 
 #other-assemblies-button {
-    	text-align: right;
-    	margin: 1.5px 0 0 0;
-    }
+    text-align: right;
+    margin: 1.5px 0 0 0;
+}
 
 .img-responsive {
 	padding-top: 2.75%;

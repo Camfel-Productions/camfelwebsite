@@ -1,32 +1,32 @@
+<div id="title" class="container padding-top-bottom">
+  <h1 id="elementaryschool">Junior and High School Assemblies</h1>
+  <h4 id="production-explanation">
+    Powerful and interactive 3-screen assembly programs designed to erase the insecurities and fears students face daily, 
+    replacing them with an understanding of their true protential and the desire and motivation to be ther best they can 
+    be in whatever circumstances they face.
+  </h4>
+</div>
+
 <div id="banner-image-1"></div>
 
-<div class="container-fluid">
-    <div id="title">
-      <h1 id="elementaryschool">Junior and High School Assemblies</h1>
-      <h4 id="production-explanation">
-        Powerful and interactive 3-screen assembly programs designed to erase the insecurities and fears students face daily, 
-        replacing them with an understanding of their true protential and the desire and motivation to be ther best they can 
-        be in whatever circumstances they face.
-      </h4>
-    </div>
-    
+<div class="container-fluid">  
     <br />
     
-    <!-- Columns are always 50% wide, on mobile and desktop -->
     <div class="row">
       <div class="col-md-1">
         </br></br></br></br>
-        <%= link_to 'Option #1', old_elementary_path, :class=>"btn btn-primary"%>
+        <%= link_to 'Option #1', worth_it_path, :class=>"btn btn-primary"%>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-3">
+        <p class="md-size-text"><strong>Worth It!</strong></p>
         <%= link_to worth_it_path :class=>"soft-link" do %>
          <span>
            <%= image_tag("worth_it_logo.png", :class=>"img-responsive") %>
          </span>
         <% end %>
       </div>
-      <div class="col-md-5" id="presentation-summary" class="hidingBox">
-        
+      <div class="col-md-7" id="presentation-summary" class="hidingBox">
+        <p class="md-size-text">
           <strong>WORTH IT!</strong> will demonstrate to your students that the choices they make today will directly affect their
           future. They will be taught to take control of the decisions they make, and that through perserverance and selc-discipling,
           they can make the right choices - choices that will lead them to success in school and in life.
@@ -41,30 +41,27 @@
     <div class="row">
       <div class="col-md-1">
         </br></br></br></br>
-        <%= link_to 'Option #2', old_elementary_path, :class=>"btn btn-primary"%>
+        <%= link_to 'Option #2', point_of_view_path, :class=>"btn btn-primary"%>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-3">
+        <p class="md-size-text"><strong>Point of View!</strong></p>
         <%= link_to point_of_view_path :class=>"soft-link" do %>
          <span>
            <%= image_tag("alt_POV_logo.png", :class=>"img-responsive") %>
          </span>
         <% end %>
       </div>
-      <div class="col-md-5" id="presentation-summary">
-        
-        <p>
-           POINT OF VIEW is a new 40 minute multi-media experience from Camfel Productions designed to look beyond 
+      <div class="col-md-7" id="presentation-summary">
+        <p class="md-size-text">
+          <strong>POINT OF VIEW!</strong> is a new 40 minute multi-media experience from Camfel Productions designed to look beyond 
           the violence, racism, intolerance, harrassment, and hate in this world, giving students a new perspective 
           on the differences that separate them from their peers, their parents, and the others who are around them. 
           While they gain a new sense of their on innate worth, they'll grow to appreciate 
           the diversity of race, language, and culture that make up the community in which they live. 
         </p>
-        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%> 
-        <%= link_to 'Learn More', point_of_view_path, :class=>"btn btn-primary pull-right"%> 
+         <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%> 
+         <%= link_to 'Learn More', point_of_view_path, :class=>"btn btn-primary pull-right"%> 
       </div>
     </div>
-    
     <br />
-      
-    
 </div>

@@ -1,40 +1,41 @@
+<div id="title" class="container padding-top-bottom">
+  <h1 id="elementaryschool">Elementary School Assemblies</h1>
+  <h4 id="production-explanation">
+    Powerful and interactive 3-screen assembly programs designed to erase the insecurities
+    and fears students face daily, replacing them with an understanding of their true 
+    potential and the desire and motivation to be ther best they can be in whatever 
+    circumstances they face.
+  </h4>
+</div>
+
 <div id="banner-image-2"></div>
 
 <div class="container-fluid">
-    <div id="title">
-      <h1 id="elementaryschool">Elementary School Assemblies</h1>
-      <h4 id="production-explanation">
-        Powerful and interactive 3-screen assembly programs designed to erase the insecurities and fears students face daily, 
-        replacing them with an understanding of their true protential and the desire and motivation to be ther best they can 
-        be in whatever circumstances they face.
-      </h4>
-    </div>
-    
     <br />
     
-    <!-- Columns are always 50% wide, on mobile and desktop -->
     <div class="row">
       <div class="col-md-1">
-            </br></br></br></br>
-            <%= link_to 'Option #1', old_elementary_path, :class=>"btn btn-primary"%>
-          </div>
-          <div class="col-md-5">
-            <%= link_to the_right_choice_path :class=>"soft-link" do %>
-        
-         <span>
-           <%= image_tag("right_choice_logo.png", :class=>"img-responsive") %>
-         </span>
+        <br /></br /></br /></br />
+        <%= link_to 'Option #1', the_right_choice_path, :class=>"btn btn-primary"%>
+      </div>
+      <div class="col-md-3">
+        <p class="md-size-text"><strong>The Right Choice!</strong></p>
+        <%= link_to the_right_choice_path :class=>"soft-link" do %>
+        <span>
+          <%= image_tag("right_choice_logo.png", :class=>"img-responsive") %>
+        </span>
         <% end %>
       </div>
-      <div class="col-md-5" id="presentation-summary" class="hidingBox">
-        <p><strong>Theme: Making Good Choices</strong></p>
-        <p>
-          <strong>THE RIGHT CHOICE!</strong> will help your students make good decisions. The program will address how the choices they make affect
-          them in both positive and negative ways. They will learn that good decisions lead to positive actions and that the right 
-          choices will help them and their friends excel in school and in life.
+      <div class="col-md-7" id="presentation-summary" class="hidingBox">
+        <p class="md-size-text"><strong>Theme: Making Good Choices</strong></p>
+        <p class="md-size-text">
+          <strong>THE RIGHT CHOICE!</strong> will help your students make good decisions. The program 
+          will address how the choices they make affect them in both positive and negative ways. 
+          They will learn that good decisions lead to positive actions and that the right choices will 
+          help them and their friends excel in school and in life.
         </p>
-        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%>  
-        <%= link_to 'Learn More', the_right_choice_path, :class=>"btn btn-primary pull-right"%> 
+        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding btn-margin-top"%>  
+        <%= link_to 'Learn More', the_right_choice_path, :class=>"btn btn-primary pull-right btn-margin-top"%> 
       </div>
     </div>
     
@@ -42,36 +43,31 @@
     
     <div class="row">
       <div class="col-md-1">
-        
-          <div>
-            </br></br></br></br>
-            <%= link_to 'Option #2', old_elementary_path, :class=>"btn btn-primary"%>
-          </div>
+        <div>
+          <br /></br /></br /></br />
+          <%= link_to 'Option #2', eye_to_eye_path, :class=>"btn btn-primary"%>
         </div>
-          <div class = "col-md-5">
-            <%= link_to eye_to_eye_path :class=>"soft-link" do %>
-          
-        
+      </div>
+      <div class = "col-md-3">
+        <p class="md-size-text"><strong>Eye To Eye!</strong></p>
+        <%= link_to eye_to_eye_path :class=>"soft-link" do %>
         <span>
           <%= image_tag("e2e_logo.png", :class=>"img-responsive") %>
         </span>
         <% end %>
       </div>
-      <div class="col-md-5" id="presentation-summary">
-        <p class = "gibberish"><strong>Theme: Being Your Best</strong></p>
-        <p>
+      <div class="col-md-7" id="presentation-summary">
+        <p class="md-size-text"><strong>Theme: Being Your Best</strong></p>
+        <p class="md-size-text">
           <strong>EYE TO EYE</strong> is a high energy three-screen multimedia presentation 
-          designed to give students a straightforward look at how we classify, categorize and label each other. 
-          this experience of music and media focuses on the attitudes that lead to 
-          building up cliques, tear down confidence, and bullying behaviors. 
-          It's an invitation to look beneath the surface and see other people and ourselves EYE YO EYE.
+          designed to give students a straightforward look at how we classify, categorize, and label each other. 
+          This experience of music and media focuses on the attitudes that lead to 
+          building up cliques, tearing down confidence, and bullying behaviors. 
+          It's an invitation to look beneath the surface and see other people and ourselves EYE TO EYE.
         </p>
-        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%> 
-        <%= link_to 'Learn More', eye_to_eye_path, :class=>"btn btn-primary pull-right"%> 
+        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding btn-margin-top"%> 
+        <%= link_to 'Learn More', eye_to_eye_path, :class=>"btn btn-primary pull-right btn-margin-top"%> 
       </div>
     </div>
-    
     <br />
-      
-  
 </div>
