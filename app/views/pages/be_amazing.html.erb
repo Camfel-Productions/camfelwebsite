@@ -21,18 +21,18 @@
         <br/>
         
           <p >Everyone wants to BE AMAZING - we talk about it, desire it, even make an effort to be it, but in the end too many fall short.<br/><br/>
- 
-Those who do amazing things are passionate about what they do and are driven to perform at their personal best. 
-They practice self-discipline by working hard and managing their time. 
-They don't get caught up in negative activities like smoking, drugs or alcohol because they're aware of the negative consequences associated with them.<br/><br/>
- 
-Amazing people don't let bullies, criticism, or uncontrollable circumstances hold them back from pressing on to achieve their goals. 
-They recognize their limitations, but don't blame those limitations for their failures.
-They learn from mistakes and enthusiastically move forward toward reaching their full potential.<br/><br/>
- 
-BE AMAZING! is an interactive program that will encourage your students to strive each day to attain their personal best 
-and to leave behind a legacy they can be proud of - a legacy for others to follow.
- 
+             
+            Those who do amazing things are passionate about what they do and are driven to perform at their personal best. 
+            They practice self-discipline by working hard and managing their time. 
+            They don't get caught up in negative activities like smoking, drugs or alcohol because they're aware of the negative consequences associated with them.<br/><br/>
+             
+            Amazing people don't let bullies, criticism, or uncontrollable circumstances hold them back from pressing on to achieve their goals. 
+            They recognize their limitations, but don't blame those limitations for their failures.
+            They learn from mistakes and enthusiastically move forward toward reaching their full potential.<br/><br/>
+             
+            BE AMAZING! is an interactive program that will encourage your students to strive each day to attain their personal best 
+            and to leave behind a legacy they can be proud of - a legacy for others to follow.
+             
           </p>
         
         </div>
@@ -40,7 +40,7 @@ and to leave behind a legacy they can be proud of - a legacy for others to follo
       
       <div  class = "row">
     
-      <div class = "col-xs-4">
+      <div class = "col-xs-3">
         <br/>
         <br/>
         <div onClick="document.getElementById('discguide').scrollIntoView();">
@@ -48,14 +48,14 @@ and to leave behind a legacy they can be proud of - a legacy for others to follo
         <button type="button" class="btn btn-primary btn-block" >Be Amazing </br>Follow-Up Guide</button>
         </div>
       </div>
-      <div class = "col-xs-4">
+      <div class = "col-xs-3">
         <br/>
         <br/>
       
         <a href = "http://characteredtools.com/assemblies/beamazingassembly.html"><button type="button" class="btn btn-primary btn-block">Be Amazing <br/>Deluxe Package</button></a>
      
       </div>
-      <div class = "col-xs-4">
+      <div class = "col-xs-3">
         <br/>
         <br/>
       <%= link_to contact_us_path :class=> "soft-links"  do %>
@@ -63,7 +63,15 @@ and to leave behind a legacy they can be proud of - a legacy for others to follo
         <button type="button" class="btn btn-primary btn-block">Schedule - Get <br/>Available Dates</button>
       </span>
       <%end %>
-
+      </div>
+      <div class = "col-xs-3">
+        <br/>
+        <br/>
+      <%= link_to asset_path("BE_AMAZING_Info.pdf")  do %>
+        <span>
+          <button type="button" class="btn btn-primary">Printable <br/> Flyer</button>
+        </span>
+      <%end %> 
       </div>
        
   </div>
@@ -160,10 +168,15 @@ and to leave behind a legacy they can be proud of - a legacy for others to follo
   <div class = "discguidetitle">
     <br/>
     <h2>Be Amazing Discussion Guide</h2>
+     <%= link_to asset_path("AMAZING_guide.pdf")  do %>
+        <span>
+          <button type="button" class="btn btn-primary">Download PDF</button>
+        </span>
+      <%end %> 
     <br/></div>
     
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="http://docs.google.com/gview?url=http://camfel.com/pdf/guides/rightchoice_guide.pdf&embedded=true" frameborder="0"></iframe>
+  <iframe class="embed-responsive-item" src="/AMAZING_guide.pdf" frameborder="0"></iframe>
 </div>
 </div>
   

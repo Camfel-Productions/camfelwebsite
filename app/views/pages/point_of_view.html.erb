@@ -53,7 +53,7 @@
       
       <div  class = "row">
     
-      <div class = "col-xs-4">
+      <div class = "col-md-3">
         <br/>
         <br/>
         <div onClick="document.getElementById('discguide').scrollIntoView();">
@@ -61,14 +61,14 @@
         <button type="button" class="btn btn-primary btn-block" >Point of View </br>Follow-Up Guide</button>
         </div>
       </div>
-      <div class = "col-xs-4">
+      <div class = "col-md-3">
         <br/>
         <br/>
       
         <a href = "https://characteredtools.com"><button type="button" class="btn btn-primary btn-block">Point of View <br/>Deluxe Package</button></a>
      
       </div>
-      <div class = "col-xs-4">
+      <div class = "col-md-3">
         <br/>
         <br/>
       <%= link_to contact_us_path :class=> "soft-links"  do %>
@@ -78,7 +78,15 @@
       <%end %>
 
       </div>
-       
+      <div class = "col-md-3">
+        <br/>
+        <br/>
+       <%= link_to asset_path("Point_of_view_info.pdf")  do %>
+        <span>
+          <button type="button" class="btn btn-primary">Printable <br/> Flyer</button>
+        </span>
+      <%end %> 
+    <br/></div>
   </div>
       
       
@@ -103,19 +111,19 @@
             </div>
           
             <ul class="nav nav-tabs">
-              <li class="active"><a data-toggle="tab" href="#home">3-5 Version</a></li>
-              <li><a data-toggle="tab" href="#menu1">K-2 Version</a></li>
+              <li class="active"><a data-toggle="tab" href="#home">High School</a></li>
+              <li><a data-toggle="tab" href="#menu1">Middle School</a></li>
                 
             </ul>
             <div class="tab-content">
               <div id="home" class="tab-pane fade in active" >
                 <div class="insetborder embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GLFnfqgkIxM" frameborder="0" allowfullscreen></iframe>
+                  <%= image_tag("page-under-construction.jpg", :class => "img-responsive")  %>
                 </div>
               </div>
               <div id="menu1" class="tab-pane fade">
                 <div class="insetborder embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B5JV-KUboSQ" frameborder="0" allowfullscreen></iframe>
+                 <%= image_tag("page-under-construction.jpg", :class => "img-responsive")  %>
                 
                 </div>
               </div>
@@ -183,6 +191,11 @@
   <div class = "discguidetitle">
     <br/>
     <h2>Point of View Discussion Guide</h2>
+    <%= link_to asset_path("Point_of_view_info.pdf")  do %>
+        <span>
+          <button type="button" class="btn btn-primary">Download PDF</button>
+        </span>
+      <%end %> 
     <br/></div>
     
 <div class="embed-responsive embed-responsive-16by9">
