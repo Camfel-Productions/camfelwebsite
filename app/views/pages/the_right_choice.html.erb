@@ -2,7 +2,8 @@
 
 
 <div class = "showinfobackground">
-<div class = "container">
+  <div class = "container">
+  
        <div class = "row">
       <div class = "col-md-7">
         <div class = "row">
@@ -12,7 +13,7 @@
           </div>
           <div class = "col-md-6">
             <br/>
-            <div id = "clickme" onclick = "slide()">
+            <div>
             <h3 >Two Versions available:
               One for your K-2 students and a second for grades 3-5 </h3>
               </div>
@@ -22,7 +23,7 @@
         
         
         
-       <div id = "slidein">
+       <div>
         <h2> Theme: Making Good Decisions</h2>
         <br/>
         
@@ -48,14 +49,14 @@
         <br/>
         <div onClick="document.getElementById('discguide').scrollIntoView();">
           <button type = "button" class = "btn freebutton">FREE</button>
-        <button type="button" class="btn btn-primary btn-block" >The Right Choice </br>Follow-Up Guide</button>
+        <button type="button" class="btn btn-primary btn-block " >Right Choice </br>Follow-Up Guide</button>
         </div>
       </div>
       <div class = "col-md-3">
         <br/>
         <br/>
       
-        <a href = "http://characteredtools.com/assemblies/therightchoice.html"><button type="button" class="btn btn-primary btn-block">Right Choice <br/>Deluxe Package</button></a>
+        <a href = "http://characteredtools.com/assemblies/therightchoice.html"><button type="button" class="btn btn-primary btn-block ">Right Choice <br/>Deluxe Package</button></a>
      
       </div>
       <div class = "col-md-3">
@@ -63,7 +64,7 @@
         <br/>
       <%= link_to contact_us_path :class=> "soft-links"  do %>
       <span>
-        <button type="button" class="btn btn-primary btn-block">Schedule - Get <br/>Available Dates</button>
+        <button type="button" class="btn btn-primary btn-block ">Schedule - Get <br/>Available Dates</button>
       </span>
       <%end %>
 
@@ -73,7 +74,7 @@
         <br/>
        <%= link_to asset_path("the_right_choice_info.pdf")  do %>
         <span>
-          <button type="button" class="btn btn-primary">Printable </br>Flyer</button>
+          <button type="button" class="btn btn-primary btn-block">Printable </br>Flyer</button>
         </span>
       <%end %> 
     <br/></div>
@@ -93,10 +94,11 @@
             <div class = "col-md-3"></div>
             
             
-              <br/>
+              
              <div class = "panel text-center">
               
                <p>You may preview the presentation here!</p>
+               </br>
              </div>
             </div>
           
@@ -167,7 +169,7 @@
   
   
 
-  </div> 
+ 
   
   </br>
   </br>
@@ -175,10 +177,9 @@
   <div class = "well text-center">
     <h2> The Right Choice Deluxe Package</h2>
     <p> A follow-up discussion video, two 18"x24" posters, one 5'x2' banner, and 600 two-sided bookmarks can add valuable follow-up to the assembly.</p>
-     </div>
-
-<div  class = "discguidebackground well text-center" id= "discguide">
-  <div class = "discguidetitle">
+     
+    <br/>
+  <div class = "discguidetitle" id = "discguide">
     <br/>
     <h2>The Right Choice Discussion Guide</h2>
     <%= link_to asset_path("rightchoice_guide.pdf")  do %>
@@ -189,7 +190,8 @@
     <br/></div>
     
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="http://docs.google.com/gview?url=http://camfel.com/pdf/guides/rightchoice_guide.pdf&embedded=true" frameborder="0"></iframe>
+  <iframe class="embed-responsive-item" src="/rightchoice_guide.pdf" frameborder="0"></iframe>
 </div>
 </div>
-  
+ </div> 
+</div>

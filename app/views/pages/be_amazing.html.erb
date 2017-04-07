@@ -3,6 +3,7 @@
 
 <div class = "showinfobackground">
 <div class = "container">
+  
        <div class = "row">
       <div class = "col-md-7">
         
@@ -16,7 +17,7 @@
         
         
         
-       <div id = "slidein">
+       <div >
         <h2> Theme: Achieving Personal Excellence</h2>
         <br/>
         
@@ -69,7 +70,7 @@
         <br/>
       <%= link_to asset_path("BE_AMAZING_Info.pdf")  do %>
         <span>
-          <button type="button" class="btn btn-primary">Printable <br/> Flyer</button>
+          <button type="button" class="btn btn-primary btn-block">Printable <br/> Flyer</button>
         </span>
       <%end %> 
       </div>
@@ -90,10 +91,11 @@
             <div class = "col-md-3"></div>
             
             
-              <br/>
+              
              <div class = "panel text-center">
               
                <p>You may preview the presentation here!</p>
+               <br/>
              </div>
             </div>
           
@@ -149,12 +151,12 @@
      <!-- carousel ends -->
           </div>
         </div>
-      </div>
+      
      
   
   
 
-  </div> 
+  
   
   </br>
   </br>
@@ -162,10 +164,8 @@
   <div class = "well text-center">
     <h2> Be Amazing Deluxe Package</h2>
     <p> A follow-up discussion video, two 18"x24" posters, one 5'x2' banner, and 600 two-sided bookmarks can add valuable follow-up to the assembly.</p>
-  </div>
-
-<div  class = "discguidebackground well text-center" id= "discguide">
-  <div class = "discguidetitle">
+    </br>
+  <div class = "discguidetitle" id = "discguide">
     <br/>
     <h2>Be Amazing Discussion Guide</h2>
      <%= link_to asset_path("AMAZING_guide.pdf")  do %>
@@ -179,4 +179,5 @@
   <iframe class="embed-responsive-item" src="/AMAZING_guide.pdf" frameborder="0"></iframe>
 </div>
 </div>
-  
+  </div> 
+</div>

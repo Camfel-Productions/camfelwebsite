@@ -6,7 +6,7 @@
       <div class = "col-md-7">
         
           
-            <br/>  <div id = "clickme" onclick = "slide()">
+            <br/>  <div>
             
             <%= image_tag("worth_it_logo.png", :class => "img-responsive")  %>
                 </div>
@@ -17,8 +17,8 @@
         
         
         
-       <div id = "slidein">
-        <h2> Theme: Decision Making</h2>
+       <div >
+        <h2> Theme: Benefits of Good Decisions</h2>
         <br/>
         
           <p>Each day is full of choices - decisions we all have to make.  
@@ -30,7 +30,7 @@
           Camfel Productions' WORTH IT! Will demonstrate to your students that the choices they make today will directly affect their future. 
           They will be taught to take control of the decisions they make, and that through perseverance and self-discipline, they can make the right choices 
           - choices that will lead them to success in school and in life.        
-</p>
+          </p>
         
         </div>
       
@@ -43,6 +43,7 @@
         <div onClick="document.getElementById('discguide').scrollIntoView();">
           <button type = "button" class = "btn freebutton">FREE</button>
           <button type="button" class="btn btn-primary btn-block" >Worth It </br>Follow-Up Guide</button>
+          
         </div>
       </div>
       <div class = "col-md-3">
@@ -67,7 +68,7 @@
         <br/>
       <%= link_to asset_path("Worth_It_Info.pdf")  do %>
         <span>
-          <button type="button" class="btn btn-primary">Printable </br> flyer</button>
+          <button type="button" class="btn btn-primary btn-block">Printable </br> flyer</button>
         </span>
       <%end %> 
     <br/></div>
@@ -88,10 +89,11 @@
             <div class = "col-md-3"></div>
             
             
-              <br/>
+              
              <div class = "panel text-center">
               
                <p>You may preview the presentation here!</p>
+               </br>
              </div>
             </div>
           
@@ -166,7 +168,7 @@
   
   
 
-  </div> 
+  
   
   </br>
   </br>
@@ -174,11 +176,12 @@
   <div class = "well text-center">
     <h2> Worth It Deluxe Package</h2>
     <p> A follow-up discussion video, two 18"x24" posters, one 5'x2' banner, and 600 two-sided bookmarks can add valuable follow-up to the assembly.</p>
+    </br>
      
-  </div>
+  
 
-<div  class = "discguidebackground well text-center" id= "discguide">
-  <div class = "discguidetitle">
+
+  <div class = "discguidetitle" id = "discguide">
     <br/>
     <h2>Worth It Discussion Guide</h2>
     <%= link_to asset_path("worthit_guide.pdf")  do %>
@@ -192,7 +195,7 @@
   <iframe class="embed-responsive-item" src="/worthit_guide.pdf" frameborder="0"></iframe>
 </div>
 </div>
-  
-
+  </div> 
+</div>
 
 

@@ -12,7 +12,7 @@
           </div>
           <div class = "col-md-6">
             <br/>
-            <div id = "clickme" onclick = "slide()">
+            <div>
             <h3 >Two Versions available:
               One for your K-2 students and a second for grades 3-5 </h3>
               </div>
@@ -22,7 +22,7 @@
         
         
         
-       <div id = "slidein">
+       <div >
         <h2> Theme: Respect</h2>
         <br/>
         
@@ -51,7 +51,7 @@
         <br/>
         <div onClick="document.getElementById('discguide').scrollIntoView();">
           <button type = "button" class = "btn freebutton">FREE</button>
-          <button type="button" class="btn btn-primary btn-block" >The Golden Rule </br>Follow-Up Guide</button>
+          <button type="button" class="btn btn-primary btn-block" >Golden Rule </br>Follow-Up Guide</button>
         </div>
       </div>
       <div class = "col-md-3">
@@ -74,9 +74,9 @@
       <div class = "col-md-3">
         <br/>
         <br/>
-       <%= link_to asset_path("AMAZING_guide.pdf")  do %>
+       <%= link_to asset_path("goldenrule_info.pdf")  do %>
         <span>
-          <button type="button" class="btn btn-primary">Printable <br/> Flyer</button>
+          <button type="button" class="btn btn-primary btn-block">Printable <br/> Flyer</button>
         </span>
       <%end %> 
     <br/></div>
@@ -96,10 +96,11 @@
             <div class = "col-md-3"></div>
             
             
-              <br/>
+              
              <div class = "panel text-center">
               
                <p>You may preview the presentation here!</p>
+               <br/>
              </div>
             </div>
           
@@ -170,7 +171,7 @@
   
   
 
-  </div> 
+  
   
   </br>
   </br>
@@ -178,13 +179,12 @@
   <div class = "well text-center">
     <h2> The Golden Rule Deluxe Package</h2>
     <p> A follow-up discussion video, two 18"x24" posters, one 5'x2' banner, and 600 two-sided bookmarks can add valuable follow-up to the assembly.</p>
-      </div>
-
-<div  class = "discguidebackground well text-center" id= "discguide">
-  <div class = "discguidetitle">
+      </br>
+      
+  <div class = "discguidetitle" id = "discguide">
     <br/>
     <h2>The Golden Rule Discussion Guide</h2>
-    <%= link_to asset_path("AMAZING_guide.pdf")  do %>
+    <%= link_to asset_path("goldenrule_guide.pdf")  do %>
         <span>
           <button type="button" class="btn btn-primary">Download PDF</button>
         </span>
@@ -192,7 +192,9 @@
     <br/></div>
     
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="/AMAZING_guide.pdf" frameborder="0"></iframe>
+  <iframe class="embed-responsive-item" src="/goldenrule_guide.pdf" frameborder="0"></iframe>
 </div>
 </div>
   
+</div>
+</div>
