@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :contacts
+
   get 'pages/home'
 
   get 'pages/about_us',      to: 'pages#about_us', as: 'about_us'
