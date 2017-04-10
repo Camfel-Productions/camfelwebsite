@@ -9,23 +9,22 @@
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 
- development:
-   adapter: jdbc
-   driver: com.mysql.jdbc.Driver
-   url: jdbc:mysql://localhost:3306/camfel_development
-   username: camfel
-   password: Arrow15709
+default: &default
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
 
- test:
-   adapter: jdbc
-   driver: com.mysql.jdbc.Driver
-   url: jdbc:mysql://localhost:3306/camfel_test
-   username: camfel
-   password: Arrow15709
+development:
+  <<: *default
+  database: db/development.sqlite3
 
- production:
-   adapter: jdbc
-   driver: com.mysql.jdbc.Driver
-   url: jdbc:mysql://localhost:3306/camfel_production
-   username: camfel
-   password: Arrow15709
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  <<: *default
+  database: db/test.sqlite3
+
+production:
+  <<: *default
+  database: db/production.sqlite3
