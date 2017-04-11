@@ -1,0 +1,96 @@
+<div class = "container">
+    <div id = "banner-image-jobs" class = "margin-top">
+        
+    </div>
+    
+    <nav class="navbar navbar-custom " role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to "Home", jobs_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Basic requirements", jobsrequirements_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Basic Description", jobsdescription_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Media", root_path, :class=> "soft-link" %></li>
+          <li><%= link_to "The Tour", jobsthetour_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Faq", jobsfaq_path, :class=> "soft-link" %></li>
+          <li><a href = "https://www.jotform.com/camfelproductions/camfel_job_application" class = "soft-link">Apply</a></li>
+          <li><%= link_to "Contact", contact_us_path, :class=> "soft-link" %></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+    <div class = "row">
+        <div class = "col-md-6">
+            <p>We are now hiring for the upcoming 2016-2017 school year. 
+            If you have ever thought about traveling the country, impacting youth, and getting paid for it, 
+            then come join our team for the most memorable experience of a lifetime.</br></br>
+            We are looking for enthusiastic, teachable, work minded, heart for students, flexible attitude, love for travel, 
+            remarkable and self-motivated oriented people who are passionate about joining our team and impacting students 
+            through our famous 3 Screen Motivational Presentations.</br></br>
+            All you need is a clean driving and criminal record, be at least 18 years old. No prior technical experience is necessary. We will train you!</br></br>
+            This is a four-month, to approx. ten-month, paid position that begins in August and lasts until the end of May of the following year.
+            If you have a family or any other large commitments at home, this may not be the job for you. 
+            If you're a Christian, single, or married with no children, we've got the position for you.</br></br>
+            Take a look at our Job Requirements and Job Description page for more detailed information.</br></br>
+            Call us today at 1-800-359-6922 or e-mail jobs@camfel.com</p>
+        </div>
+        <div class = "col-md-6">
+            <%= image_tag("jobimages/ChloeEmmieShow.jpg" )  %>
+        </div>
+    </div>
+    <div class = "row blackbackground">
+        <div class= "col-md-4">
+            <%= link_to jobsfaq_path :class=> "soft-links"  do %>
+                <span >
+
+                  <%= image_tag("jobimages/faq(icon.png")  %>
+
+                </span>
+            <% end %>
+        </div>
+        <div class= "col-md-4">
+            
+            <%= link_to jobsthetour_path :class=> "soft-links"  do %>
+                <span >
+                  <%= image_tag("jobimages/tour(icon.png")  %>
+                </span>
+            <% end %>
+        </div>
+        <div class= "col-md-4">
+            
+            <a href = "https://www.jotform.com/camfelproductions/camfel_job_application"><%= image_tag("jobimages/apply(icon.png")  %></a>
+                
+        </div>
+    </div>  
+    <div class = "row">
+       <div class = "col-md-3">
+            <p>"Through Camfel I have traveled, learned and experienced life events that I would not have if I would have stayed at home.
+            I encourage anyone that likes to experience new things to commit to a year."</br></br> [+]Dee, 2008/2009</p>
+        </div>
+        <div class = "col-md-3">
+            <p>"The beaches of the west coast, the Texan vastness, wildlife of all sorts, the Goonie's house, 
+            General Lee, Napoleon Dynamite's school, and Chuck Norris are just a few of the unforgettable things 
+            that we have seen since we have hit the road with Camfel! One of the best things is that you get 
+            the unique opportunity to speak into the lives of so many people. So impact lives, see & do unforgettable things, 
+            travel the country and get paid to do it! We will never regret the time we spent with Camfel!"</br></br> [+]Josh & Brittany Sievers, 2012/2013</p>
+        </div>
+        <div class = "col-md-3">
+            <p>"I woudn't have been able to experience what I have with Camfel were I to be with any other company. 
+            I strongly recommend joining up for a year if you are seeking to define yourself as your own person, and have a lot of traveling fun in the process."
+            </br></br> [+]Jeff, 2007/2008/2009</p>
+        </div>
+        <div class = "col-md-3">
+            <p>"This job is more than a job; it is a way for inspiring and impacting youth all over the nation. It's a great way to see the country and a great experience."
+            </br></br> [+]Aaron & Erin, 2012/2013</p>
+        </div>
+    </div> 
+</div>

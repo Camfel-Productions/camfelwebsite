@@ -49,4 +49,16 @@ class PagesController < ApplicationController
   
   def event_prep
   end
+  
+  def jobs
+  end
+  
+  def jobsrequirements
+  end
+  
+  def jobsdescription
+  end
+  
+  def jobsfaq
+  end
 end

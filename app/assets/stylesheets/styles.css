@@ -480,3 +480,36 @@ Show Information Pages
 .center-button{
   margin: 0 auto;
 }
+
+
+
+
+
+/*************************************************************************
+jobs pages
+*************************************************************************/
+
+#banner-image-jobs {
+  	width: 100%;
+  	background-image: url('jobimages/jobsheader2017.jpg');
+  	height: 156px;
+  	background-color: blue;
+  	background-position: center;
+}
+
+#banner-image-thetour {
+  	width: 100%;
+  	background-image: url('jobimages/tourphoto_group.jpg');
+  	height: 100px;
+  	background-color: blue;
+  	
+}
+.blackbackground {
+	background: black;
+}
+.padding-bottom {
+	padding-bottom: 30px;
+}
+.strong {
+	font-weight: bold ;
+}

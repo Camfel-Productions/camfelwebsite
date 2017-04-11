@@ -1,0 +1,127 @@
+<div class = "container">
+    <div id = "banner-image-jobs" class = "margin-top">
+        
+    </div>
+    
+    <nav class="navbar navbar-custom " role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to "Home", jobs_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Basic requirements", jobsrequirements_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Basic Description", jobsdescription_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Media", root_path, :class=> "soft-link" %></li>
+          <li><%= link_to "The Tour", jobsthetour_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Faq", jobsfaq_path, :class=> "soft-link" %></li>
+          <li><a href = "https://www.jotform.com/camfelproductions/camfel_job_application" class = "soft-link">Apply</a></li>
+          <li><%= link_to "Contact", contact_us_path, :class=> "soft-link" %></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+    <div class = "row">
+        <div class = "col-md-9">
+            <h4>Flexibility</h4>
+            <p>We need people who are easily adaptable and flexible and love the challenge of new situations, 
+            climates, cultures and connecting with new types of people. You will have tough days and great days on the road;
+            however, we promise that the rewards and benefits far outweigh the challenges you might face. 
+            You'll walk away from your tour having accomplished something great, having a greater understanding of the world in which you live, 
+            and maybe even having learned something about yourself along the way.</p>
+            <h4>Love people</h4>
+            <p>You will spend just as much time dealing with people in this job as you will dealing with technology. 
+            From principals and pastors to students and hotel staff - we expect the highest of standards with whomever you encounter. 
+            We expect our presenters to always be courteous, professional, and understanding while maintaining a high level of customer service at all times.</br></br>
+
+            You will also be staying in a communal living space during training as well as on the road with one other person. 
+            You will need to have respect for others while being independent and punctual, maintaining a high level of integrity in all situations.</p>
+            <h4>Leadership Characteristics</h4>
+            <p>We are looking for servant leaders. We are looking for people who are willing to lead and serve. 
+            Being a leader means that you are a person of integrity, positivity, vision and commitment. 
+            The moment you step into a venue for a show, you are in the spotlight. 
+            Students and staff alike are watching you to see if what you say and represent matches up with who you are as a person. 
+            We place a high value on strong character values and expect our presenters to be the type of leaders that students will desire to follow, 
+            as you will be communicating with people one-on-one as well as in large group contexts. 
+            Serving and loving people is crucial to the success of a Camfel presenter and as a leader altogether. 
+            Leadership is not a title or even a role; it is becoming a person of character, integrity and influence.</p>
+            <h4>Work and play</h4>
+            <p>Some days will be longer than others. Your daily routine will involve running the show at a school in the morning,
+            driving to a second school, and then driving to the next day's location.</br></br>
+
+            While this job does not require you to be a top athlete, there is a bit of physical activity involved. 
+            You will be lifting and moving equipment that may weigh up to 50 pounds.</br></br>
+            
+            Some of your days are going to be long. You may get worn out from time to time. 
+            Although we will not expect you to work 20 hours a day, there will be days where you will have multiple shows in multiple venues and have a drive as well.</br></br>
+
+            More than that though, we need people who know how to have fun. This job isn't all hard work. 
+            You'll have many days to explore and we encourage our presenters to discover new foods and cultures, sight-see,
+            go skiing, go kayaking, go hiking, catch a ball game, etc. The country will literally be your playground.</p>
+            <h4>Be committed to the vision</h4>
+            <p>We want you to believe in this company and our mission of impacting students. 
+            We want you sold on our vision before you step on the plane or get in a car to make your way out here. 
+            We want our presenters to fulfill their committed time and do so with a positive attitude, while possessing a servant's heart. 
+            We encourage our presenters to get to know the company, ask questions and become a part of the Camfel experience.</p>
+        </div>
+        <div class = "col-md-3">
+            <%= image_tag("jobimages/student_help.jpg", :class=> "padding-bottom" )  %>
+            <%= image_tag("jobimages/KidsBullySign.jpg", :class=> "padding-bottom" )  %>
+            <%= image_tag("jobimages/KidsWithJennHannah.jpg" )  %>
+        </div>
+    </div>
+    <div class = "row blackbackground">
+        <div class= "col-md-4">
+            <%= link_to jobsfaq_path :class=> "soft-links"  do %>
+                <span >
+
+                  <%= image_tag("jobimages/faq(icon.png")  %>
+
+                </span>
+            <% end %>
+        </div>
+        <div class= "col-md-4">
+            
+            <%= link_to jobsthetour_path :class=> "soft-links"  do %>
+                <span >
+                  <%= image_tag("jobimages/tour(icon.png")  %>
+                </span>
+            <% end %>
+        </div>
+        <div class= "col-md-4">
+            
+            <a href = "https://www.jotform.com/camfelproductions/camfel_job_application"><%= image_tag("jobimages/apply(icon.png")  %></a>
+                
+        </div>
+    </div> 
+    <div class = "row">
+       <div class = "col-md-3">
+            <p>"Through Camfel I have traveled, learned and experienced life events that I would not have if I would have stayed at home.
+            I encourage anyone that likes to experience new things to commit to a year."</br></br> [+]Dee, 2008/2009</p>
+        </div>
+        <div class = "col-md-3">
+            <p>"The beaches of the west coast, the Texan vastness, wildlife of all sorts, the Goonie's house, 
+            General Lee, Napoleon Dynamite's school, and Chuck Norris are just a few of the unforgettable things 
+            that we have seen since we have hit the road with Camfel! One of the best things is that you get 
+            the unique opportunity to speak into the lives of so many people. So impact lives, see & do unforgettable things, 
+            travel the country and get paid to do it! We will never regret the time we spent with Camfel!"</br></br> [+]Josh & Brittany Sievers, 2012/2013</p>
+        </div>
+        <div class = "col-md-3">
+            <p>"I woudn't have been able to experience what I have with Camfel were I to be with any other company. 
+            I strongly recommend joining up for a year if you are seeking to define yourself as your own person, and have a lot of traveling fun in the process."
+            </br></br> [+]Jeff, 2007/2008/2009</p>
+        </div>
+        <div class = "col-md-3">
+            <p>"This job is more than a job; it is a way for inspiring and impacting youth all over the nation. It's a great way to see the country and a great experience."
+            </br></br> [+]Aaron & Erin, 2012/2013</p>
+        </div>
+    </div>
+</div>    
+    

@@ -1,0 +1,87 @@
+<div class = "container">
+    <div id = "banner-image-jobs" class = "margin-top">
+        
+    </div>
+    
+    <nav class="navbar navbar-custom " role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to "Home", jobs_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Basic requirements", jobsrequirements_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Basic Description", jobsdescription_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Media", root_path, :class=> "soft-link" %></li>
+          <li><%= link_to "The Tour", jobsthetour_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Faq", jobsfaq_path, :class=> "soft-link" %></li>
+          <li><a href = "https://www.jotform.com/camfelproductions/camfel_job_application" class = "soft-link">Apply</a></li>
+          <li><%= link_to "Contact", contact_us_path, :class=> "soft-link" %></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+    
+    <div class = "row">
+        <div class = "col-md-6">
+            <%= image_tag("jobimages/tourphoto_group.jpg" )  %>
+            
+            <p class = "text-center">So you're thinkin of joining the Camfel team, but you're not sure what life will be like once you get here?</p>
+            <p>If you speak with any of our past presenters they will all tell you pretty much the same things - life on the road is a blast.</br></br>
+
+            Sure there are going to be ups and downs; you'll get tired and worn out, but what makes it all worth it is seeing students lives 
+            impacted with a message of change and hope.</br></br>
+
+            From the wood-covered mountains of Washington to the urban landscape of Harlem in New York, 
+            you'll be sure to see and experience a ton while you're on the road. Between shows our techs go skiing, 
+            explore the sights and sounds of cities such as Boston, New York, San Fransisco, Chicago and many others, and relax in some pretty nice hotel rooms.</br></br>
+
+            If you have any questions about life on the road, feel free to check out our small slide show, 
+            shoot us an e-mail or give us a call. We are here to answer any questions you may have.</p>
+            
+            <div class = "row">
+                <div class = "col-md-2"></div>
+                <div class = "col">
+                    <%= image_tag("jobimages/HanKarWhiEmm.jpg" )  %>
+                </div>
+            </div>
+        </div>
+        <div class = "col-md-6">
+            <%= image_tag("jobimages/brett_ny.jpg", :class=> "padding-bottom")  %>
+            <%= image_tag("jobimages/DVP4966589_Veer.JPG", :class=> "padding-bottom")  %>
+            
+
+        </div>
+    </div>
+    <div class = "row blackbackground">
+        <div class= "col-md-4">
+            <%= link_to jobsfaq_path :class=> "soft-links"  do %>
+                <span >
+
+                  <%= image_tag("jobimages/faq(icon.png")  %>
+
+                </span>
+            <% end %>
+        </div>
+        <div class= "col-md-4">
+            
+            <%= link_to jobsthetour_path :class=> "soft-links"  do %>
+                <span >
+                  <%= image_tag("jobimages/tour(icon.png")  %>
+                </span>
+            <% end %>
+        </div>
+        <div class= "col-md-4">
+            
+            <a href = "https://www.jotform.com/camfelproductions/camfel_job_application"><%= image_tag("jobimages/apply(icon.png")  %></a>
+                
+        </div>
+    </div>
+</div>

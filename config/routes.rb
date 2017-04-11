@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :contacts
+
 
   get 'pages/home'
 
@@ -38,6 +38,15 @@ Rails.application.routes.draw do
   get 'pages/quest_for_respect', to: 'pages#quest_for_respect', as: 'quest_for_respect'
  
   get 'pages/event_prep', to: 'pages#event_prep', as: 'event_prep'
+  
+  get 'pages/jobs', to: 'pages#jobs', as: 'jobs'
+  
+  get 'pages/jobsrequirements', to: 'pages#jobsrequirements', as: 'jobsrequirements'
+  
+  get 'pages/jobsdescription', to: 'pages#jobsdescription', as: 'jobsdescription'
+  
+  get 'pages/jobsthetour', to: 'pages#jobsthetour', as: 'jobsthetour'
+  get 'pages/jobsfaq', to: 'pages#jobsfaq', as: 'jobsfaq'
   
    root 'pages#home'
    
