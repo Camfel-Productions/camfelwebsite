@@ -23,33 +23,6 @@
 </div>
 
 <div class="container-fluid">
-    <br />
-    
-    <div class="row">
-      <div class="col-md-1">
-        <br /></br /></br /></br />
-        <%= link_to 'Option #1', the_right_choice_path, :class=>"btn btn-primary"%>
-      </div>
-      <div class="col-md-3">
-        <p class="md-size-text"><strong>The Right Choice!</strong></p>
-        <%= link_to the_right_choice_path :class=>"soft-link" do %>
-        <span>
-          <%= image_tag("right_choice_logo.png", :class=>"img-responsive") %>
-        </span>
-        <% end %>
-      </div>
-      <div class="col-md-7" id="presentation-summary" class="hidingBox">
-        <p class="md-size-text"><strong>Theme: Making Good Choices</strong></p>
-        <p class="md-size-text">
-          <strong>THE RIGHT CHOICE!</strong> will help your students make good decisions. The program 
-          will address how the choices they make affect them in both positive and negative ways. 
-          They will learn that good decisions lead to positive actions and that the right choices will 
-          help them and their friends excel in school and in life.
-        </p>
-        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding btn-margin-top"%>  
-        <%= link_to 'Learn More', the_right_choice_path, :class=>"btn btn-primary pull-right btn-margin-top"%> 
-      </div>
-    </div>
     
     <br />
     
@@ -57,7 +30,7 @@
       <div class="col-md-1">
         <div>
           <br /></br /></br /></br />
-          <%= link_to 'Option #2', eye_to_eye_path, :class=>"btn btn-primary"%>
+          <%= link_to 'Option #1', eye_to_eye_path, :class=>"btn btn-primary"%>
         </div>
       </div>
       <div class = "col-md-3">
@@ -82,4 +55,29 @@
       </div>
     </div>
     <br />
+    <div class="row">
+      <div class="col-md-1">
+        <br /></br /></br /></br />
+        <%= link_to 'Option #2', the_right_choice_path, :class=>"btn btn-primary"%>
+      </div>
+      <div class="col-md-3">
+        <p class="md-size-text"><strong>The Right Choice!</strong></p>
+        <%= link_to the_right_choice_path :class=>"soft-link" do %>
+        <span>
+          <%= image_tag("right_choice_logo.png", :class=>"img-responsive") %>
+        </span>
+        <% end %>
+      </div>
+      <div class="col-md-7" id="presentation-summary" class="hidingBox">
+        <p class="md-size-text"><strong>Theme: Making Good Choices</strong></p>
+        <p class="md-size-text">
+          <strong>THE RIGHT CHOICE!</strong> will help your students make good decisions. The program 
+          will address how the choices they make affect them in both positive and negative ways. 
+          They will learn that good decisions lead to positive actions and that the right choices will 
+          help them and their friends excel in school and in life.
+        </p>
+        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding btn-margin-top"%>  
+        <%= link_to 'Learn More', the_right_choice_path, :class=>"btn btn-primary pull-right btn-margin-top"%> 
+      </div>
+    </div>
 </div>

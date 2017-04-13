@@ -6,7 +6,7 @@
     
     <h1> 3-Screen School Assemblies for Each Grade Level</h1>
 
-   <p>Social, Emotional, and Life Skills<br/> 
+   <p>Social and Emotional Life Skills<br/> 
        Engaging Character Education<br/> 
        Bully Prevention Presentations</p>
       
@@ -24,26 +24,26 @@
   
   <div class = "container">
   <div class = "row">
-  
-  <div class="col-md-6">
-   
-    <div id = "elementarylink" class = "fadein panel panel-default text-center" onload = "fadeElem()">
-       <%= link_to elementary_path :class=> "soft-links"  do %>
-         <span >
+    <div class = "col-md-2"></div>
+    <div class="col-md-4">
+     
+      <div id = "elementarylink" class = "fadein panel panel-default text-center" onload = "fadeElem()">
+         <%= link_to elementary_path :class=> "soft-links"  do %>
+           <span >
+            
+            <h2> Elementary School</h2>
+            <%= image_tag("elem_linkphoto.jpg",:class=> "hover" )  %>
           
-          <h2> Elementary School</h2>
-          <%= image_tag("elem_linkphoto.jpg",:class=> "hover" )  %>
+            </br>
+            </br>
+            
+          </span>
+        <% end %>
         
-          </br>
-          </br>
-          
-        </span>
-      <% end %>
+      </div>
       
     </div>
-    
-  </div>
-  <div class="col-md-6">
+  <div class="col-md-4">
     <div id = "highschoollink" class = "fadein panel panel-default text-center">
       <%= link_to highschool_path :class=> "soft-links" do %>
         <span>
