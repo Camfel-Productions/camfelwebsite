@@ -61,4 +61,7 @@ class PagesController < ApplicationController
   
   def jobsfaq
   end
+  
+  def share_story
+  end
 end

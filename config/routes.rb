@@ -48,6 +48,8 @@ Rails.application.routes.draw do
   get 'pages/jobsthetour', to: 'pages#jobsthetour', as: 'jobsthetour'
   get 'pages/jobsfaq', to: 'pages#jobsfaq', as: 'jobsfaq'
   
+  get 'pages/share_story', to: 'pages#share_story', as: 'jobs/share_story'
+  
    root 'pages#home'
    
   # The priority is based upon order of creation: first created -> highest priority.

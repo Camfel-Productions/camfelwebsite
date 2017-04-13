@@ -278,6 +278,7 @@ CONTACT US BODY
 	
 	#camfel-form {
 		text-align: center;
+		
 	}
 }
 
@@ -512,4 +513,29 @@ jobs pages
 }
 .strong {
 	font-weight: bold ;
+}
+
+/*************************************************************************
+jobs pages
+*************************************************************************/
+
+#banner-image-share {
+  	width: 100%;
+  	background-image: url('relatable_notype.jpg');
+  	height: 100%;
+  	background-color: blue;
+  	background-position: center;
+}
+
+#storyid {
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+
+#camfel-story-form {
+		color: white;
+}
+.blacktext {
+	color: black;
 }
