@@ -46,9 +46,14 @@ Rails.application.routes.draw do
   get 'pages/jobsdescription', to: 'pages#jobsdescription', as: 'jobsdescription'
   
   get 'pages/jobsthetour', to: 'pages#jobsthetour', as: 'jobsthetour'
+  
   get 'pages/jobsfaq', to: 'pages#jobsfaq', as: 'jobsfaq'
   
   get 'pages/share_story', to: 'pages#share_story', as: 'share_story'
+  
+  get 'pages/jobscontact', to: 'pages#jobscontact', as: 'jobscontact'
+  
+  get 'pages/jobs_application', to: 'pages#jobs_application', as: 'jobs_application'
   
    root 'pages#home'
    

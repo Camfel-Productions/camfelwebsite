@@ -1,0 +1,83 @@
+<div class = "container">
+    <div id = "banner-image-jobs" class = "margin-top">
+        
+    </div>
+    
+    <nav class="navbar navbar-custom " role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to "Home", jobs_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Basic requirements", jobsrequirements_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Basic Description", jobsdescription_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Media", root_path, :class=> "soft-link" %></li>
+          <li><%= link_to "The Tour", jobsthetour_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Faq", jobsfaq_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Apply", jobs_application_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Contact", jobscontact_path, :class=> "soft-link" %></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+
+
+  <h2 id="contact-us-title">Get More Information</h2>
+  <p id="contact-us-paragraph">
+     If you would like to receive more information about Camfel Productions or any of the assemblies, 
+     please feel free to email us or call us at <strong><a href="tel:1-800-522-6335">1-800-522-6335</a></strong>. 
+     <br />
+  </p>
+  
+  <br />
+  
+  <div class = "row">
+    <div class = "col-md-8">
+      <form action="https://formspree.io/jobs@camfel.com" method="post" id="camfel-form">
+        <div>
+          <strong>Name:</strong> 
+          <br />
+    
+          <input type="text" name="name" size="30">
+        </div>
+        <br />
+    
+        <div>
+          <strong>Email:</strong> 
+          <br />
+    
+          <input type="email" name="sender_email" size="30">
+        </div>
+        <br />
+    
+        <div>
+          <strong>Message:</strong> 
+      
+          <textarea type="text" name="comment" rows="10" cols="75" id="inquiry-field"></textarea>
+          <p>*We do <strong>NOT</strong> sell or share your information with anyone else.</p>
+        </div>
+        <div class = "margin-top">
+          <input class="btn btn-primary " type="submit" value="Send">
+          <input class=" btn btn-primary " type="reset" value="Reset">
+        </div>
+      </form>
+   </div>
+   <div class = "col-md-3 text-center">
+     <p>
+       15709 Arrow Hwy</br>
+       Irwindale, CA, 91706</br>
+       <strong>Fax: (626)960-2185</br>
+       Email: info@camfel.com</br>
+       <a href="tel:1-626-960-6922"> Phone: (626) 960-6922</strong> </a>
+     </p>
+   </div>
+  </div>
+</div>

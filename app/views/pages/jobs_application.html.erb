@@ -1,0 +1,424 @@
+<div class = "container">
+    <div id = "banner-image-jobs" class = "margin-top">
+        
+    </div>
+    
+    <nav class="navbar navbar-custom " role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to "Home", jobs_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Basic requirements", jobsrequirements_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Basic Description", jobsdescription_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Media", root_path, :class=> "soft-link" %></li>
+          <li><%= link_to "The Tour", jobsthetour_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Faq", jobsfaq_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Apply", jobs_application_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Contact", jobscontact_path, :class=> "soft-link" %></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+    
+    <div class = "row">
+        <div class = "col-md-2"></div>
+        <div class = "col-md-4">
+            <%= image_tag("camfel_logo.png", :class => "img-responsive")  %>
+        </div>
+        <div class = "col-md-4">
+            <h1 class = "margin-top"> Pre-Application</h1>
+        </div>
+    </div>
+        <form action="https://formspree.io/jobs@camfel.com" method="post" id="camfel-form">
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3 class = "padding-top-bottom" >Full Name:</h3>
+            </div>
+           
+          
+            <div class = "col-md-4">
+                <p> First Name</p>
+                <input type="text" name="First Name" size="30">
+                <p> Last Name</p>
+                <input type="text" name="Last Name" size="30">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3 class = "padding-top-bottom" >Phone Number:</h3>
+            </div>
+            <div class = "col-md-4">
+                <div class = "padding-top-bottom">
+                    <br/>
+                    <input type="text" name = "Phone Number" placeholder = "(XXX)-XXX-XXXX" >
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3 >Email:</h3>
+            </div>
+            <div class = "col-md-4">
+                <div class = "padding-top-bottom">
+                    <input type="text" name = "Email" placeholder = "email@email.com" size=>
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Facebook,Twitter, or Instagram username:</h3>
+            </div>
+            <div class = "col-md-4">
+                <br/>
+                <input type="text" name = "Social Media" placeholder = "facebook.com/ernie.ayala" size=>
+                </br>(Only one required)
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3 >Sex:</h3>
+            </div>
+            <div class = "col-md-4">
+                <br/>
+                <select name="Sex">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Relationship Status:</h3>
+            </div>
+            <div class = "col-md-4">
+                <br/>
+                <select name="Relationship Status">
+                          <option value="Single">Single</option>
+                          <option value="Married">Married</option>
+                          <option value="Engaged">Engaged</option>
+                </select>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3 >Current Address:</h3>
+            </div>
+            <div class = "col-md-4">
+                <br/>
+                <input type="text" name = "Street Address" size="40">
+                <br/> Street Address <br/>
+                <input type="text" name = "Street Address 2" size="40">
+                <br/> Street Address Line 2
+                <br/>
+                <div class = "row">
+                    <div class = "col-xs-6">
+                        <input type="text" name = "City" placeholder = "City" size=>
+                        </br>City
+                    </div>
+                    <div class = "col-xs-6">
+                        <input type="text" name = "State" placeholder = "CA" size=>
+                        </br>State/Providence
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-xs-6">
+                       <input type="text" name = "Zip" placeholder = "XXXXX" size=>
+                        <br/> Postal/Zip Code
+                    </div>
+                    <div class = "col-xs-6">
+                        <input type="text" name = "Country" placeholder = "" size=>
+                        <br/> Country
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Birthdate:</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Birthdate" placeholder = "MM/DD/YYYY" size="30">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3 >Drivers license:</h3>
+            </div>
+        <div class = "col-md-4">
+            </br>
+                <select name="Drivers License">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3 >Driving Experience</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <select name="Driving Experience">
+                    <option value="less than 1">Less than 1 Year</option>
+                    <option value="1-2 Years">1-2 Years</option>
+                    <option value="3-4 Years">3-4 Years</option>
+                    <option value="5+ Years">5+ Years</option>
+                </select>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3 class = "padding-top-bottom" >Employment</h3>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Current or Most Recent Employer</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Current or Most Recent Employer" size=>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3> phone number</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Employer Phone Number" placeholder = "(XXX)-XXX-XXXX" >
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3 >Position</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Position" size=>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Name of Supervisor</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Name of Supervisor" size=>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Beginning Date</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Beginning Date" placeholder = "MM/DD/YYYY" size="30">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Ending Date</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Ending Date" placeholder = "MM/DD/YYYY" size="30">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3  >Reason For Leaving</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Reason For Leaving" size= "30">
+            </div>
+        </div>
+         <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3 class = "padding-top-bottom" >Education</h3>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>College/Other</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "College/Other"  placeholder = "college" size="30">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Year Graduated</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Year Graduated" placeholder = "MM/DD/YYYY" size="30">
+            </div>
+        </div>
+        
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Major/Degree</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Major/Degree" size="30">
+            </div>
+        </div>
+        
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>High School</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "High School" size="30">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Year Graduated</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <input type="text" name = "Graduation Date" placeholder = "MM/DD/YYYY" size="30">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>I am able to commit to: </h3>
+            </div>
+            <div class = "col-md-4">
+                <br/>
+                    <select name="I am Able to Commit To:">
+                        <option value="10 month tour">10 month tour</option>
+                        <option value="5 month tour">5 month tour</option>
+                        <option value="4 month tour">4 month tour</option>
+                        <option value="Not sure">Not sure</option>
+                    </select>
+            </div>
+        </div>
+        
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>Do you have any medical conditions that would prevent you from lifting loads more than 35lbs, driving for more than 5hrs, or standing for long periods of time?</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <select name="Medically Fit">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>If yes, explain</h3>
+            </div>
+        <div class = "col-md-4">
+            <br/>
+                <textarea type="text" name="Do you have any medical conditions that would prevent you from lifting loads more than 35lbs, driving for more than 5hrs, or standing for long periods of time?" rows="8" cols="40"></textarea>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4 text-center">
+                <h3>How did you Find out about us?</h3>
+            </div>
+            <div class = "col-md-4">
+                <br/>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="How did you find out about us?" value="Youth Specialties" checked>
+                    Youth Specialties
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="How did you find out about us?" value="ChristianJobs.com" >
+                    ChristianJobs.com
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="How did you find out about us?" value="Facebook Ad">
+                    Facebook Ad
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="How did you find out about us?" value="Current Presenter">
+                    Current Presenter
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="How did you find out about us?" value="Church Bulletin/Post">
+                    Church Bulletin/Post
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="How did you find out about us?" value="Friend"> 
+                    Friend
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="How did you find out about us?" value="Other">
+                    Other<input type="text" name = "Other" >
+                  </label>
+                </div>
+            </div>
+        </div>
+        <br/>
+    
+        
+        <div class = "margin-top">
+          <input class="btn btn-primary " type="submit" value="Send">
+          <input class=" btn btn-primary " type="reset" value="Reset">
+        </div>
+      </form>
+        
+    </div>
+</div>
