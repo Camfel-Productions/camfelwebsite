@@ -20,7 +20,7 @@
           <li><%= link_to "Home", jobs_path, :class=> "soft-link" %></li>
           <li><%= link_to "Basic requirements", jobsrequirements_path, :class=> "soft-link" %></li>
           <li><%= link_to "Basic Description", jobsdescription_path, :class=> "soft-link" %></li>
-          <li><%= link_to "Media", root_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Media", root_path, :class=> "soft-link", target: :_blank %></li>
           <li><%= link_to "The Tour", jobsthetour_path, :class=> "soft-link" %></li>
           <li><%= link_to "Faq", jobsfaq_path, :class=> "soft-link" %></li>
           <li><%= link_to "Apply", jobs_application_path, :class=> "soft-link" %></li>
@@ -38,7 +38,7 @@
             <h1 class = "margin-top"> Pre-Application</h1>
         </div>
     </div>
-        <form action="https://formspree.io/jobs@camfel.com" method="post" id="camfel-form">
+        <form action="https://formspree.io/jobs@camfel.com" method="post" id="camfel-form" target = "_blank">
         <div class = "row">
             <div class = "col-md-2"></div>
             <div class = "col-md-4 text-center">
@@ -48,9 +48,9 @@
           
             <div class = "col-md-4">
                 <p> First Name</p>
-                <input type="text" name="First Name" size="30">
+                <input type="text" name="First Name" size="30" required>
                 <p> Last Name</p>
-                <input type="text" name="Last Name" size="30">
+                <input type="text" name="Last Name" size="30" required>
             </div>
         </div>
         <div class = "row">
@@ -61,7 +61,7 @@
             <div class = "col-md-4">
                 <div class = "padding-top-bottom">
                     <br/>
-                    <input type="text" name = "Phone Number" placeholder = "(XXX)-XXX-XXXX" >
+                    <input type="text" name = "Phone Number" placeholder = "(XXX)-XXX-XXXX" required>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
             </div>
             <div class = "col-md-4">
                 <div class = "padding-top-bottom">
-                    <input type="text" name = "Email" placeholder = "email@email.com" size=>
+                    <input type="text" name = "Email" placeholder = "email@email.com" required>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
             </div>
             <div class = "col-md-4">
                 <br/>
-                <input type="text" name = "Social Media" placeholder = "facebook.com/ernie.ayala" size=>
+                <input type="text" name = "Social Media" placeholder = "facebook.com/ernie.ayala">
                 </br>(Only one required)
             </div>
         </div>
@@ -94,7 +94,7 @@
             </div>
             <div class = "col-md-4">
                 <br/>
-                <select name="Sex">
+                <select name="Sex" required>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                 </select>
@@ -107,7 +107,7 @@
             </div>
             <div class = "col-md-4">
                 <br/>
-                <select name="Relationship Status">
+                <select name="Relationship Status" required>
                           <option value="Single">Single</option>
                           <option value="Married">Married</option>
                           <option value="Engaged">Engaged</option>
@@ -121,28 +121,28 @@
             </div>
             <div class = "col-md-4">
                 <br/>
-                <input type="text" name = "Street Address" size="40">
+                <input type="text" name = "Street Address" size="40" required>
                 <br/> Street Address <br/>
                 <input type="text" name = "Street Address 2" size="40">
                 <br/> Street Address Line 2
                 <br/>
                 <div class = "row">
                     <div class = "col-xs-6">
-                        <input type="text" name = "City" placeholder = "City" size=>
+                        <input type="text" name = "City" placeholder = "City" required>
                         </br>City
                     </div>
                     <div class = "col-xs-6">
-                        <input type="text" name = "State" placeholder = "CA" size=>
+                        <input type="text" name = "State" placeholder = "CA" required>
                         </br>State/Providence
                     </div>
                 </div>
                 <div class = "row">
                     <div class = "col-xs-6">
-                       <input type="text" name = "Zip" placeholder = "XXXXX" size=>
+                       <input type="text" name = "Zip" placeholder = "XXXXX" required>
                         <br/> Postal/Zip Code
                     </div>
                     <div class = "col-xs-6">
-                        <input type="text" name = "Country" placeholder = "" size=>
+                        <input type="text" name = "Country" placeholder = "" required>
                         <br/> Country
                     </div>
                 </div>
@@ -155,7 +155,7 @@
             </div>
         <div class = "col-md-4">
             <br/>
-                <input type="text" name = "Birthdate" placeholder = "MM/DD/YYYY" size="30">
+                <input type="text" name = "Birthdate" placeholder = "MM/DD/YYYY" size="30" required>
             </div>
         </div>
         <div class = "row">
@@ -165,7 +165,8 @@
             </div>
         <div class = "col-md-4">
             </br>
-                <select name="Drivers License">
+                <select name="Drivers License" required>
+                    <option value=""></option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select>
@@ -179,7 +180,8 @@
             </div>
         <div class = "col-md-4">
             <br/>
-                <select name="Driving Experience">
+                <select name="Driving Experience" required>
+                    <option value=""></option>
                     <option value="less than 1">Less than 1 Year</option>
                     <option value="1-2 Years">1-2 Years</option>
                     <option value="3-4 Years">3-4 Years</option>
@@ -200,7 +202,7 @@
             </div>
         <div class = "col-md-4">
             <br/>
-                <input type="text" name = "Current or Most Recent Employer" size=>
+                <input type="text" name = "Current or Most Recent Employer">
             </div>
         </div>
         <div class = "row">
@@ -328,7 +330,8 @@
             </div>
             <div class = "col-md-4">
                 <br/>
-                    <select name="I am Able to Commit To:">
+                    <select name="I am Able to Commit To:" required>
+                        <option value=""></option>
                         <option value="10 month tour">10 month tour</option>
                         <option value="5 month tour">5 month tour</option>
                         <option value="4 month tour">4 month tour</option>
@@ -344,7 +347,8 @@
             </div>
         <div class = "col-md-4">
             <br/>
-                <select name="Medically Fit">
+                <select name="Medically UnFit" required>
+                    <option value=""></option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select>
@@ -357,7 +361,7 @@
             </div>
         <div class = "col-md-4">
             <br/>
-                <textarea type="text" name="Do you have any medical conditions that would prevent you from lifting loads more than 35lbs, driving for more than 5hrs, or standing for long periods of time?" rows="8" cols="40"></textarea>
+                <textarea type="text" name="if yes, explain why unfit" rows="8" cols="40"></textarea>
             </div>
         </div>
         <div class = "row">
@@ -419,6 +423,6 @@
           <input class=" btn btn-primary " type="reset" value="Reset">
         </div>
       </form>
-        
+        <p>You can learn more about this position and what Camfel does by visiting our <%= link_to "Faq", jobsfaq_path, :class=> "soft-link" %></p>
     </div>
 </div>

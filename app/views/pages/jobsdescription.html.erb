@@ -20,10 +20,10 @@
           <li><%= link_to "Home", jobs_path, :class=> "soft-link" %></li>
           <li><%= link_to "Basic requirements", jobsrequirements_path, :class=> "soft-link" %></li>
           <li><%= link_to "Basic Description", jobsdescription_path, :class=> "soft-link" %></li>
-          <li><%= link_to "Media", root_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Media", root_path, :class=> "soft-link", target: :_blank %></li>
           <li><%= link_to "The Tour", jobsthetour_path, :class=> "soft-link" %></li>
           <li><%= link_to "Faq", jobsfaq_path, :class=> "soft-link" %></li>
-          <li><%= link_to "Apply", jobs_application_path, :class=> "soft-link" %></li>
+          <li><%= link_to "Apply", jobs_application_path, :class=> "soft-link", target: :_blank %></li>
           <li><%= link_to "Contact", jobscontact_path, :class=> "soft-link" %></li>
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -90,8 +90,11 @@
         </div>
         <div class= "col-md-4">
             
-            <a href = "https://www.jotform.com/camfelproductions/camfel_job_application"><%= image_tag("jobimages/apply(icon.png")  %></a>
-                
+            <%= link_to jobs_application_path :class=>"soft-link", target: :_blank do %>
+                <span>
+                   <%= image_tag("jobimages/apply(icon.png") %>
+                </span>
+            <% end %>   
         </div>
     </div>  
     <div class = "row">
