@@ -515,9 +515,6 @@ jobs pages
 	font-weight: bold ;
 }
 
-/*************************************************************************
-jobs pages
-*************************************************************************/
 
 #banner-image-share {
   	width: 100%;
@@ -538,4 +535,9 @@ jobs pages
 }
 .blacktext {
 	color: black;
+}
+
+.required-field::after { 
+    content: "*";
+    color: red;
 }
