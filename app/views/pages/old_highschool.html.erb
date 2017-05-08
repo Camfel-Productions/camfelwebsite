@@ -1,59 +1,52 @@
-<div id="banner-image-2"></div>
-
+<div id="banner-image-2">
+	<!-- empty div -->
+</div>
 <div class="container">
-    <div id="title">
-      <h1 id="elementaryschool">Old High School Assemblies</h1>
-      <h4 id="production-explanation">
-        Powerful and interactive 3-screen assembly programs designed to erase the insecurities and fears students face daily, 
-        replacing them with an understanding of their true protential and the desire and motivation to be ther best they can 
-        be in whatever circumstances they face.
-      </h4>
-    </div>
-    
-    <br />
-    
-    <!-- Columns are always 50% wide, on mobile and desktop -->
-    <div class="row">
-      <div class="col-md-6">
-        <%= link_to be_amazing_path :class=>"soft-link" do %>
-         <span>
-           <%= image_tag("beamazingmail.png", :class=>"img-responsive") %>
-         </span>
-        <% end %>
-      </div>
-      <div class="col-md-6" id="presentation-summary" class="hidingBox">
-        <p><strong>Theme: Achieving Personal Excellence</strong></p>
-        <p>
-          <strong>BE AMAZING</strong> is an interactive program that will encourage your students to strive each day 
-          to attain their personal best and to leave behind a legacy they can be proud of - a legacy for others to follow.
-        </p>
-        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%>  
-        <%= link_to 'Learn More', be_amazing_path, :class=>"btn btn-primary pull-right"%> 
-      </div>
-    </div>
-    
-    <br />
-    
-    <div class="row">
-      <div class="col-md-6">
-        <%= link_to quest_for_respect_path :class=>"soft-link" do %>
-         <span>
-           <%= image_tag("camfel_logo.png", :class=>"img-responsive") %>
-         </span>
-        <% end %>
-      </div>
-      <div class="col-md-6" id="presentation-summary">
-        <p ><strong>Theme: Respect</strong></p>
-        <p >
-          <strong>QUEST FOR RESPECT</strong> will demonstrate that true respect is a by-product of how we live our lives each day, 
-          how we react to crisis, and how we treat others and ourselves.
-        </p>
-        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%> 
-        <%= link_to 'Learn More', quest_for_respect_path, :class=>"btn btn-primary pull-right"%> 
-      </div>
-    </div>
-    
-    
-      
-    
+	<div id="title">
+		<h1 id="elementaryschool">Old High School Assemblies</h1>
+		<h4 id="production-explanation">
+			Powerful and interactive 3-screen assembly programs designed to erase the insecurities and fears students face daily, 
+			replacing them with an understanding of their true protential and the desire and motivation to be ther best they can 
+			be in whatever circumstances they face.
+		</h4>
+	</div>
+	<br />
+	<!-- Columns are always 50% wide, on mobile and desktop -->
+	<div class="row">
+		<div class="col-md-6">
+			<%= link_to be_amazing_path :class=>"soft-link" do %>
+			 <span>
+				 <%= image_tag("beamazingmail.png", :class=>"img-responsive") %>
+			 </span>
+			<% end %>
+		</div>
+		<div class="col-md-6" id="presentation-summary" class="hidingBox">
+			<p><strong>Theme: Achieving Personal Excellence</strong></p>
+			<p>
+				<strong>BE AMAZING</strong> is an interactive program that will encourage your students to strive each day 
+				to attain their personal best and to leave behind a legacy they can be proud of - a legacy for others to follow.
+			</p>
+			<%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%>  
+			<%= link_to 'Learn More', be_amazing_path, :class=>"btn btn-primary pull-right"%> 
+		</div>
+	</div>
+	<br />
+	<div class="row">
+		<div class="col-md-6">
+			<%= link_to quest_for_respect_path :class=>"soft-link" do %>
+			 <span>
+				 <%= image_tag("camfel_logo.png", :class=>"img-responsive") %>
+			 </span>
+			<% end %>
+		</div>
+		<div class="col-md-6" id="presentation-summary">
+			<p ><strong>Theme: Respect</strong></p>
+			<p >
+				<strong>QUEST FOR RESPECT</strong> will demonstrate that true respect is a by-product of how we live our lives each day, 
+				how we react to crisis, and how we treat others and ourselves.
+			</p>
+			<%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%> 
+			<%= link_to 'Learn More', quest_for_respect_path, :class=>"btn btn-primary pull-right"%> 
+		</div>
+	</div>
 </div>
