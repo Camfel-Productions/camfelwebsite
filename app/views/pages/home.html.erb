@@ -1,156 +1,166 @@
-
-<div   class="panel panel-default text-center">
-  <div class="header-color">
-          
-    </br>
-    
-    <h1> 3-Screen School Assemblies for Each Grade Level</h1>
-
-   <p>Social and Emotional Life Skills<br/> 
-       Engaging Character Education<br/> 
-       Bully Prevention Presentations</p>
-      
-    
-  </div>
-  
+<div class="panel panel-default text-center">
+    <div class="header-color">      
+        <br />
+        <h1>3-Screen School Assemblies for Each Grade Level</h1>
+        <p>
+            Social and Emotional Life Skills
+            <br /> 
+            Engaging Character Education
+            <br /> 
+            Bully Prevention Presentations
+        </p>
+    </div>
 </div>
-
-
 <!-- Center with Picture links -->
-
 <div class="backgroundimage">  
-  
-  </br>
-  
-  <div class = "container">
-  <div class = "row">
-    <div class = "col-md-2"></div>
-    <div class="col-md-4">
-     
-      <div id = "elementarylink" class = "fadein panel panel-default text-center" onload = "fadeElem()">
-         <%= link_to elementary_path :class=> "soft-links"  do %>
-           <span >
-            
-            <h2> Elementary School</h2>
-            <%= image_tag("elem_linkphoto.jpg",:class=> "hover" )  %>
-          
-            </br>
-            </br>
-            
-          </span>
-        <% end %>
-        
-      </div>
-      
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <!-- emtpy div -->
+            </div>
+            <div class="col-md-4">
+                <div id="elementarylink" class = "fadein panel panel-default text-center" onload = "fadeElem()">
+                    <%= link_to elementary_path :class=> "soft-links"  do %>
+                    <span>
+                        <h2> Elementary School</h2>
+                        <%= image_tag("elem_linkphoto.jpg",:class=> "hover" )  %> 
+                        <br />
+                        <br />
+                    </span>
+                    <% end %>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id = "highschoollink" class = "fadein panel panel-default text-center">
+                    <%= link_to highschool_path :class=> "soft-links" do %>
+                    <span>
+                        <h2> Middle & High School</h2>
+                        <%= image_tag("jr_srhslink_photo.jpg",:class=> "hover") %>
+                        <br />
+                        <br />
+                    </span>
+                    <% end %>
+                </div>
+            </div>
+        </div>
     </div>
-  <div class="col-md-4">
-    <div id = "highschoollink" class = "fadein panel panel-default text-center">
-      <%= link_to highschool_path :class=> "soft-links" do %>
-        <span>
-          <h2> Middle & High School</h2>
-          <%= image_tag("jr_srhslink_photo.jpg",:class=> "hover") %>
-      
-          </br>
-          </br>
-        </span>
-      <% end %>
-    </div>
-    </div>
-
 </div>
-</div>
-</div>
-
-                        <!-- carousel begins -->
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    
-    <div class="item active">
-      <div class = "row">
-        <div class = "col-md-1"></div>
-        <div class = "col-md-5">
-      <p class = "text-center"> The large screens and music had their attention the whole time. 
-      </br>Kimberly Keefe, Nuview Elementary, Nuevo, CA</p>
+<!-- carousel begins -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="row">
+                <div class="col-md-1">
+                    
+                </div>
+                <div class="col-md-5">
+                    <p class="text-center"> 
+                        The large screens and music had their attention the whole time. 
+                        <br />
+                        Kimberly Keefe, Nuview Elementary, Nuevo, CA
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <p class="text-center"> 
+                        Informational and motivational in reference to the video presentation while making 
+                        real-life relevance to high school aged students.
+                        <br />
+                        Jesse G Sanchez, Brawley Union High School, 
+                        <br />
+                        Brawley, CA
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class = "col-md-5">
-      <p class = "text-center"> Informational and motivational in reference to the video presentation while making 
-                real-life relevance to high school aged students.
-                <br/>Jesse G Sanchez, Brawley Union High School, </br>Brawley, CA</p>
+        <div class="item">
+            <div class = "row">
+                <div class = "col-md-1"></div>
+                <div class = "col-md-5 ">
+                    <p class = "text-center ">
+                        The presentation itself was great. 
+                        The kids enjoyed the visual/tech aspects of the presentation. 
+                        <br />
+                        Angela Nelson, Sporting Hill Elementary, Mechanicsburg, PA 
+                    </p>
+                </div>
+                <div class = "col-md-5">
+                    <p class = "text-center "> 
+                        The focus on self-determination and commitment 
+                        was well-suited to our population of 6th through 8th graders.  
+                        Students love the music and they connect with the featured students in the film. 
+                        <br />
+                        Ivy Davis-Tomczuk, Preston Plains Middle School, Preston, CT 
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="item">
+            <div class = "row">
+                <div class = "col-md-1"></div>
+                <div class = "col-md-5">
+                    <p class = "text-center ">
+                        Yes, our students loved it! 
+                        I have several students who were very moved by the program 
+                        and have plans to start their own clothing drive for others in needs.  
+                        I love that this program had this type of impact on our students.  
+                        <br />
+                        Sara Mays, Mount Sterling Elementary, 
+                        <br />
+                        Mount Sterling, KY 
+                    </p>
+                </div>
+                <div class = "col-md-5">
+                    <p class = "text-center ">  
+                        The program had something in it that targeted every person in the room one way or another. 
+                        It was well suited for both middle schooland high school. 
+                        <br />
+                        Kristi Hollingsworth, Winnsboro MS 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class = "row">
+                <div class = "col-md-1"></div>
+                <div class = "col-md-5">
+                    <p class = "text-center "> 
+                        Both presenters did a great job launching, 
+                        interacting mid-way and summarizing with the tic-tac-toe event. 
+                        <br />
+                        Robert Klemt, Liberty Middle School, West Orange, CA 
+                    </p>
+                </div>
+                <div class = "col-md-5">
+                    <p class = "text-center "> 
+                        Both presenters did a great job launching, 
+                        interacting mid-way and summarizing with the tic-tac-toe event. 
+                        <br />
+                        Robert Klemt, Liberty Middle School, West Orange, CA 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    
-    <div class="item">
-      <div class = "row">
-        <div class = "col-md-1"></div>
-        <div class = "col-md-5 ">
-      <p class = "text-center "> The presentation itself was great. 
-      The kids enjoyed the visual/tech aspects of the presentation. 
-      </br>Angela Nelson, Sporting Hill Elementary, Mechanicsburg, PA </p>
-        </div>
-        <div class = "col-md-5">
-      <p class = "text-center "> The focus on self-determination and commitment 
-      was well-suited to our population of 6th through 8th graders.  
-      Students love the music and they connect with the featured students in the film. 
-      </br>Ivy Davis-Tomczuk, Preston Plains Middle School, Preston, CT </p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="item">
-      <div class = "row">
-        <div class = "col-md-1"></div>
-        <div class = "col-md-5">
-      <p class = "text-center "> Yes, our students loved it! 
-      I have several students who were very moved by the program 
-      and have plans to start their own clothing drive for others in needs.  
-      I love that this program had this type of impact on our students.  
-      </br>Sara Mays, Mount Sterling Elementary, </br>Mount Sterling, KY </p>
-        </div>
-        <div class = "col-md-5">
-      <p class = "text-center ">  The program had something in it that targeted every person in the room one way or another. 
-      It was well suited for both middle schooland high school. 
-      </br>Kristi Hollingsworth, Winnsboro MS </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <div class = "row">
-        <div class = "col-md-1"></div>
-        <div class = "col-md-5">
-      <p class = "text-center "> Both presenters did a great job launching, 
-      interacting mid-way and summarizing with the tic-tac-toe event. 
-      <br/>Robert Klemt, Liberty Middle School, West Orange, CA </p>
-        </div>
-        <div class = "col-md-5">
-      <p class = "text-center "> Both presenters did a great job launching, 
-      interacting mid-way and summarizing with the tic-tac-toe event. 
-      <br/>Robert Klemt, Liberty Middle School, West Orange, CA </p>
-        </div>
-      </div>
-    </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
      <!-- carousel ends --> 
+</div>
+
 
 <script>
-  $(function(){
-    $("#elementarylink").fadeIn(1000);
-});
-$(function(){
-    $("#highschoollink").fadeIn(1000);
-});
-
+    $(function(){
+        $("#elementarylink").fadeIn(1000);
+    });
+    $(function(){
+        $("#highschoollink").fadeIn(1000);
+    });
 </script>

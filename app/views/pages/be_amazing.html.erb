@@ -1,183 +1,174 @@
-
-
-
-<div class = "showinfobackground">
-<div class = "container">
-  
-       <div class = "row">
-      <div class = "col-md-7">
-        
-          
-            <br/>
-            <%= image_tag("beamazingmail.png", :class => "img-responsive")  %>
-          
-          
-        
-        
-        
-        
-        
-       <div >
-        <h2> Theme: Achieving Personal Excellence</h2>
-        <br/>
-        
-          <p >Everyone wants to BE AMAZING - we talk about it, desire it, even make an effort to be it, but in the end too many fall short.<br/><br/>
-             
-            Those who do amazing things are passionate about what they do and are driven to perform at their personal best. 
-            They practice self-discipline by working hard and managing their time. 
-            They don't get caught up in negative activities like smoking, drugs or alcohol because they're aware of the negative consequences associated with them.<br/><br/>
-             
-            Amazing people don't let bullies, criticism, or uncontrollable circumstances hold them back from pressing on to achieve their goals. 
-            They recognize their limitations, but don't blame those limitations for their failures.
-            They learn from mistakes and enthusiastically move forward toward reaching their full potential.<br/><br/>
-             
-            BE AMAZING! is an interactive program that will encourage your students to strive each day to attain their personal best 
-            and to leave behind a legacy they can be proud of - a legacy for others to follow.
-             
-          </p>
-        
-        </div>
-      
-      
-      <div  class = "row">
-    
-      <div class = "col-xs-3">
-        <br/>
-        <br/>
-        <div onClick="document.getElementById('discguide').scrollIntoView();">
-          <button type = "button" class = "btn freebutton">FREE</button>
-        <button type="button" class="btn btn-primary btn-block" >Be Amazing </br>Follow-Up Guide</button>
-        </div>
-      </div>
-      <div class = "col-xs-3">
-        <br/>
-        <br/>
-      
-        <a href = "http://characteredtools.com/assemblies/beamazingassembly.html"><button type="button" class="btn btn-primary btn-block">Be Amazing <br/>Deluxe Package</button></a>
-     
-      </div>
-      <div class = "col-xs-3">
-        <br/>
-        <br/>
-      <%= link_to contact_us_path :class=> "soft-links"  do %>
-      <span>
-        <button type="button" class="btn btn-primary btn-block">Schedule - Get <br/>Available Dates</button>
-      </span>
-      <%end %>
-      </div>
-      <div class = "col-xs-3">
-        <br/>
-        <br/>
-      <%= link_to asset_path("BE_AMAZING_Info.pdf")  do %>
-        <span>
-          <button type="button" class="btn btn-primary btn-block">Printable <br/> Flyer</button>
-        </span>
-      <%end %> 
-      </div>
-       
-  </div>
-      
-      
-      
-      </div>
-      
-
-      <div class = "col-md-1"></div>
-      <div class = "col-md-4">
-        <br/>
-        <br/>
-        <div>
-          <div class = "row">
-            <div class = "col-md-3"></div>
-            
-            
-              
-             <div class = "panel text-center">
-              
-               <p>You may preview the presentation here!</p>
-               <br/>
-             </div>
-            </div>
-          
-           
-                <div class="insetborder embed-responsive embed-responsive-16by9">
-                  
-                  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/193764315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="showinfobackground">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <br />
+                <%= image_tag("beamazingmail.png", :class => "img-responsive") %>
+                <div>
+                    <h2>Theme: Achieving Personal Excellence</h2>
+                    <br />
+                    <p>
+                        Everyone wants to BE AMAZING - we talk about it, desire it, even make an effort to be it, but in the end too many fall short.
+                        <br />
+                        <br />
+                        Those who do amazing things are passionate about what they do and are driven to perform at their personal best. 
+                        They practice self-discipline by working hard and managing their time. 
+                        They don't get caught up in negative activities like smoking, drugs or alcohol because they're aware of the negative consequences associated with them.
+                        <br />
+                        <br />
+                        Amazing people don't let bullies, criticism, or uncontrollable circumstances hold them back from pressing on to achieve their goals. 
+                        They recognize their limitations, but don't blame those limitations for their failures.
+                        They learn from mistakes and enthusiastically move forward toward reaching their full potential.
+                        <br />
+                        <br />
+                        BE AMAZING! is an interactive program that will encourage your students to strive each day to attain their personal best 
+                        and to leave behind a legacy they can be proud of - a legacy for others to follow.
+                    </p>
                 </div>
-              
-              
+                <div class="row">
+                    <div class="col-xs-3">
+                        <br />
+                        <br />
+                        <div onClick="document.getElementById('discguide').scrollIntoView();">
+                            <button type = "button" class = "btn freebutton">FREE</button>
+                            <button type="button" class="btn btn-primary btn-block" >Be Amazing </br>Follow-Up Guide</button>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <br />
+                        <br />
+                        <a href = "http://characteredtools.com/assemblies/beamazingassembly.html">
+                            <button type="button" class="btn btn-primary btn-block">
+                                Be Amazing 
+                                <br />
+                                Deluxe Package
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <br />
+                        <br />
+                        <%= link_to contact_us_path :class=> "soft-links"  do %>
+                        <span>
+                            <button type="button" class="btn btn-primary btn-block">Schedule - Get <br/>Available Dates</button>
+                        </span>
+                        <% end %>
+                    </div>
+                    <div class="col-xs-3">
+                        <br />
+                        <br />
+                        <%= link_to asset_path("BE_AMAZING_Info.pdf")  do %>
+                        <span>
+                            <button type="button" class="btn btn-primary btn-block">Printable <br/> Flyer</button>
+                        </span>
+                        <% end %> 
+                    </div>
+                </div>
             </div>
-                        <!-- carousel begins -->
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <p class = "text-center carouselpad"> Informational and motivational in reference to the video presentation while making 
-                real-life relevance to high school aged students.
-                <br/>Jesse G Sanchez, Brawley Union High School, </br>Brawley, CA</p></br></br><br/>
-    </div>
-
-    <div class="item">
-      <p class = "text-center "> The focus on self-determination and commitment 
-      was well-suited to our population of 6th through 8th graders.  
-      Students love the music and they connect with the featured students in the film. 
-      </br>Ivy Davis-Tomczuk, Preston Plains Middle School, Preston, CT</p></br></br>
-    </div>
-
-    <div class="item">
-      <p class = "text-center "> The program had something in it that targeted every person in the room one way or another. 
-      It was well suited for both middle schooland high school. 
-      </br>Kristi Hollingsworth, Winnsboro MS</p></br></br></br></br>
-    </div>
-
-    <div class="item">
-      <p class = "text-center "> Both presenters did a great job launching, 
-      interacting mid-way and summarizing with the tic-tac-toe event. 
-      <br/>Robert Klemt, Liberty Middle School, West Orange, CA</p></br></br></br>
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-     <!-- carousel ends -->
-          </div>
+            <div class = "col-md-1">
+                <!-- empty div -->
+            </div>
+            <div class = "col-md-4">
+                <br />
+                <br />
+                <div>
+                    <div class = "row">
+                        <div class = "col-md-3">
+                            <!-- empty div -->
+                        </div>
+                        <div class="panel text-center">
+                            <p>You may preview the presentation here!</p>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="insetborder embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/193764315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- carousel begins -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <p class = "text-center carouselpad"> 
+                                Informational and motivational in reference to the video presentation while making 
+                                real-life relevance to high school aged students.
+                                <br />
+                                Jesse G Sanchez, Brawley Union High School, 
+                                <br />
+                                Brawley, CA
+                            </p>
+                            <br />
+                            <br />
+                            <br />
+                        </div>
+                        <div class="item">
+                            <p class = "text-center "> 
+                                The focus on self-determination and commitment 
+                                was well-suited to our population of 6th through 8th graders.  
+                                Students love the music and they connect with the featured students in the film. 
+                                <br />
+                                Ivy Davis-Tomczuk, Preston Plains Middle School, Preston, CT
+                            </p>
+                            <br />
+                            <br />
+                        </div>
+                        <div class="item">
+                            <p class = "text-center ">
+                                The program had something in it that targeted every person in the room one way or another. 
+                                It was well suited for both middle schooland high school. 
+                                <br />
+                                Kristi Hollingsworth, Winnsboro MS
+                            </p>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </div>
+                        <div class="item">
+                            <p class = "text-center"> 
+                                Both presenters did a great job launching, 
+                                interacting mid-way and summarizing with the tic-tac-toe event. 
+                                <br />
+                                Robert Klemt, Liberty Middle School, West Orange, CA
+                            </p>
+                            <br />
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!-- carousel ends -->
+            </div>
         </div>
-      
-     
-  
-  
-
-  
-  
-  </br>
-  </br>
-
-  <div class = "well text-center">
-    <h2> Be Amazing Deluxe Package</h2>
-    <p> A follow-up discussion video, two 18"x24" posters, one 5'x2' banner, and 600 two-sided bookmarks can add valuable follow-up to the assembly.</p>
-    </br>
-  <div class = "discguidetitle" id = "discguide">
-    <br/>
-    <h2>Be Amazing Discussion Guide</h2>
-     <%= link_to asset_path("AMAZING_guide.pdf")  do %>
-        <span>
-          <button type="button" class="btn btn-primary">Download PDF</button>
-        </span>
-      <%end %> 
-    <br/></div>
-    
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="/AMAZING_guide.pdf" frameborder="0"></iframe>
-</div>
-</div>
-  </div> 
+        <br />
+        <br />
+        <div class = "well text-center">
+            <h2>Be Amazing Deluxe Package</h2>
+            <p>A follow-up discussion video, two 18"x24" posters, one 5'x2' banner, and 600 two-sided bookmarks can add valuable follow-up to the assembly.</p>
+            <br />
+            <div class="discguidetitle" id="discguide">
+                <br />
+                <h2>Be Amazing Discussion Guide</h2>
+                <%= link_to asset_path("AMAZING_guide.pdf")  do %>
+                <span>
+                    <button type="button" class="btn btn-primary">Download PDF</button>
+                </span>
+                <% end %> 
+                <br />
+            </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="/AMAZING_guide.pdf" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div> 
 </div>
