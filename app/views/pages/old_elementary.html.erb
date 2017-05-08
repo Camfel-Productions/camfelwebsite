@@ -1,59 +1,52 @@
-<div id="banner-image-2"></div>
-
+<div id="banner-image-2">
+	<!-- empty div -->
+</div>
 <div class="container">
-    <div id="title">
-      <h1 id="elementaryschool">Old Elementary School Assemblies</h1>
-      <h4 id="production-explanation">
-        Powerful and interactive 3-screen assembly programs designed to erase the insecurities and fears students face daily, 
-        replacing them with an understanding of their true protential and the desire and motivation to be ther best they can 
-        be in whatever circumstances they face.
-      </h4>
-    </div>
-    
-    <br />
-    
-    <!-- Columns are always 50% wide, on mobile and desktop -->
-    <div class="row">
-      <div class="col-md-6">
-        <%= link_to be_a_hero_path :class=>"soft-link" do %>
-         <span>
-           <%= image_tag("beaheroemail.png", :class=>"img-responsive") %>
-         </span>
-        <% end %>
-      </div>
-      <div class="col-md-6" id="presentation-summary" class="hidingBox">
-        <p><strong>Theme: Being Your Best</strong></p>
-        <p>
-          <strong>BE A HERO!</strong> is an interactive program that will encourage your students to excel in school, 
-          to help stop bullying, and to be a role-model - a "hero" for others to follow.
-        </p>
-        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%>  
-        <%= link_to 'Learn More', be_a_hero_path, :class=>"btn btn-primary pull-right"%> 
-      </div>
-    </div>
-    
-    <br />
-    
-    <div class="row">
-      <div class="col-md-6">
-        <%= link_to golden_rule_path :class=>"soft-link" do %>
-         <span>
-           <%= image_tag("the_golden_rule_logo.jpg", :class=>"img-responsive") %>
-         </span>
-        <% end %>
-      </div>
-      <div class="col-md-6" id="presentation-summary">
-        <p ><strong>Theme: Respect</strong></p>
-        <p >
-          <strong>THE GOLDEN RULE</strong> will demonstrate that true respect is earned over time. 
-          When we do our best in class and when we build up others instead of being mean, we will gain "true" respect.
-        </p>
-        <%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%> 
-        <%= link_to 'Learn More', golden_rule_path, :class=>"btn btn-primary pull-right"%> 
-      </div>
-    </div>
-    
-    
-      
-    
+	<div id="title">
+		<h1 id="elementaryschool">Old Elementary School Assemblies</h1>
+		<h4 id="production-explanation">
+			Powerful and interactive 3-screen assembly programs designed to erase the insecurities and fears students face daily, 
+			replacing them with an understanding of their true protential and the desire and motivation to be ther best they can 
+			be in whatever circumstances they face.
+		</h4>
+	</div>
+	<br />
+	<!-- Columns are always 50% wide, on mobile and desktop -->
+	<div class="row">
+		<div class="col-md-6">
+			<%= link_to be_a_hero_path :class=>"soft-link" do %>
+			 <span>
+				 <%= image_tag("beaheroemail.png", :class=>"img-responsive") %>
+			 </span>
+			<% end %>
+		</div>
+		<div class="col-md-6" id="presentation-summary" class="hidingBox">
+			<p><strong>Theme: Being Your Best</strong></p>
+			<p>
+				<strong>BE A HERO!</strong> is an interactive program that will encourage your students to excel in school, 
+				to help stop bullying, and to be a role-model - a "hero" for others to follow.
+			</p>
+			<%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%>  
+			<%= link_to 'Learn More', be_a_hero_path, :class=>"btn btn-primary pull-right"%> 
+		</div>
+	</div>
+	<br />
+	<div class="row">
+		<div class="col-md-6">
+			<%= link_to golden_rule_path :class=>"soft-link" do %>
+			 <span>
+				 <%= image_tag("the_golden_rule_logo.jpg", :class=>"img-responsive") %>
+			 </span>
+			<% end %>
+		</div>
+		<div class="col-md-6" id="presentation-summary">
+			<p ><strong>Theme: Respect</strong></p>
+			<p >
+				<strong>THE GOLDEN RULE</strong> will demonstrate that true respect is earned over time. 
+				When we do our best in class and when we build up others instead of being mean, we will gain "true" respect.
+			</p>
+			<%= link_to 'Contact Us', contact_us_path, :class=>"btn btn-primary pull-right left-padding"%> 
+			<%= link_to 'Learn More', golden_rule_path, :class=>"btn btn-primary pull-right"%> 
+		</div>
+	</div>
 </div>
