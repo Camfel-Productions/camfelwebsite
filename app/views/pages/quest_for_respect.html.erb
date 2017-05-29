@@ -3,9 +3,11 @@
 		<div class = "row">
 			<div class = "col-md-7">
 				<br />
+				<!-- image to be changed. change the text "camfel_logo.png" -->
 				<%= image_tag("camfel_logo.png", :class => "img-responsive")  %>
 				<br />
 			 	<div>
+			 		<!-- text to be changed-->
 					<h2> Theme: Respect</h2>
 					<br />
 					<p >Everyone wants to be accepted, to be loved, to be respected. 
@@ -32,17 +34,20 @@
 						<br />
 						<div onClick="document.getElementById('discguide').scrollIntoView();">
 							<button type = "button" class = "btn freebutton">FREE</button>
+							<!-- the words "Quest For Respect Follow-Up Guide" below can be changed -->
 							<button type="button" class="btn btn-primary btn-block">Quest For Respect <br />Follow-Up Guide</button>
 						</div>
 					</div>
 					<div class = "col-md-3">
 						<br />
 						<br />
+						<!-- a tags are links. to change where the links go, change the "http://characteredtools.com/assemblies/questassembly.html" to the new link. change the text as shown above-->
 						<a href = "http://characteredtools.com/assemblies/questassembly.html"><button type="button" class="btn btn-primary btn-block">Quest For Respect <br />Deluxe Package</button></a>
 					</div>
 					<div class = "col-md-3">
 						<br />
 						<br />
+						<!-- below is a link. the link ends at the word "end"-->
 						<%= link_to contact_us_path :class=> "soft-links"  do %>
 						<span>
 							<button type="button" class="btn btn-primary btn-block">Schedule - Get <br />Available Dates</button>
@@ -52,6 +57,7 @@
 					 <div class = "col-md-3">
 						<br />
 						<br />
+						<!-- below is a link.  -->
 						<%= link_to asset_path("quest_info.pdf")  do %>
 						<span>
 							<button type="button" class="btn btn-primary btn-block">Printable <br /> Flyer</button>
