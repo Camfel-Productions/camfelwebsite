@@ -55,7 +55,7 @@ Rails.application.routes.draw do
   
   get 'pages/jobs_application', to: 'pages#jobs_application', as: 'jobs_application'
   
-   root 'pages#home'
+   root 'home#index'
    
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
