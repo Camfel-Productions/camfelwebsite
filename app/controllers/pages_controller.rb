@@ -20,6 +20,9 @@ class PagesController < ApplicationController
   def count_on_me
   end
   
+  def its_my_life
+  end
+  
   def point_of_view
   end
   

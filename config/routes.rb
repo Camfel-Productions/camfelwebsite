@@ -16,7 +16,9 @@ Rails.application.routes.draw do
   get 'pages/eye_to_eye', to: 'pages#eye_to_eye', as: 'eye_to_eye'
   
   get 'pages/worth_it', to: 'pages#worth_it', as: 'worth_it'
-
+  
+  get 'pages/its_my_life', to: 'pages#its_my_life', as: 'its_my_life'
+  
   get 'pages/setup'
 
   get 'pages/scheduling',   to: 'pages#scheduling', as: 'scheduling'
