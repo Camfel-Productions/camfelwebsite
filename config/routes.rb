@@ -25,6 +25,8 @@ Rails.application.routes.draw do
 
   get 'pages/downloads'
   
+  get 'pages/count_on_me', to: 'pages#count_on_me', as: 'count_on_me'
+  
   get 'pages/the_right_choice', to: 'pages#the_right_choice', as: 'the_right_choice'
   
   get 'pages/point_of_view', to: 'pages#point_of_view', as: 'point_of_view'

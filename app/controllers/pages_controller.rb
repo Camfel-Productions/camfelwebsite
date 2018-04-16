@@ -17,6 +17,9 @@ class PagesController < ApplicationController
   def the_right_choice
   end
   
+  def count_on_me
+  end
+  
   def point_of_view
   end
   
