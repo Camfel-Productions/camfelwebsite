@@ -32,6 +32,9 @@ class PagesController < ApplicationController
   def eye_to_eye
   end
   
+  def spreading_kindness
+  end
+  
   def worth_it
   end
   

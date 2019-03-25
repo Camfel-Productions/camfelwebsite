@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   
   get 'pages/eye_to_eye', to: 'pages#eye_to_eye', as: 'eye_to_eye'
   
+  get 'pages/spreading_kindness', to: 'pages#spreading_kindness', as: 'spreading_kindness'
+  
   get 'pages/worth_it', to: 'pages#worth_it', as: 'worth_it'
   
   get 'pages/its_my_life', to: 'pages#its_my_life', as: 'its_my_life'
