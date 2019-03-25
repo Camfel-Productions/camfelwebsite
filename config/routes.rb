@@ -19,6 +19,8 @@ Rails.application.routes.draw do
   
   get 'pages/its_my_life', to: 'pages#its_my_life', as: 'its_my_life'
   
+  get 'pages/go_viral', to: 'pages#go_viral', as: 'go_viral'
+  
   get 'pages/setup'
 
   get 'pages/scheduling',   to: 'pages#scheduling', as: 'scheduling'

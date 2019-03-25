@@ -23,6 +23,9 @@ class PagesController < ApplicationController
   def its_my_life
   end
   
+  def go_viral
+  end
+  
   def point_of_view
   end
   
